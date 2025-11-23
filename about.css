@@ -1,0 +1,193 @@
+ html {
+    font-family: "MS PGothic", Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: #1C1C1C;
+    color: black;
+}
+
+body {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 8%;
+}
+
+.title {
+    font-size: 14px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1%;
+
+}
+
+/** navigation bar start **/
+.navbar {
+    width: 490px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+
+    font-size: 16px;;
+}
+
+.navul {
+    list-style: none;
+    width: 100%;
+    display: flex; 
+    justify-content: space-around;
+    padding: 0px;
+    margin: 2% auto;
+
+}
+
+.navli {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 0 2%;
+}
+
+/** navigation bar end **/
+
+.mainbody {
+    max-height: 520px;
+    margin: 0 auto;
+    overflow: auto;
+
+    display: block;
+    margin-top: 2%;
+    padding: 3% 4%;
+
+
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+
+    scrollbar-color: #464646 rgb(32, 32, 32);
+    scrollbar-width: thin;
+}
+
+.bio{
+    font-size: 16px;
+}
+
+.bio > p {
+    margin: 3.5% 1%;
+}
+
+#aboutimg {
+    width: 160px;
+    height: auto;
+    float: left;
+    padding: 3px;
+    margin: 0% 4% 1% 0%;
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 6%;
+}
+
+blockquote {
+    display: flex;
+    margin: 0 0;
+    height: 3px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+blockquote:before {
+    display: flex;
+     width: 8%;
+    justify-content: flex-start;
+    font-style: italic;
+    content: "\201C";
+    font-size: 35px;
+}
+
+h4{
+    margin:0;
+    margin-top: 3%;
+}
+
+.halloffame {
+    display:flex;
+    align-items: flex-start;
+    overflow:auto;
+    overflow-y: hidden; 
+    gap: 0.7%;
+    margin-top: 2%;
+
+    white-space: nowrap;
+
+    scrollbar-color: #464646 rgb(32, 32, 32);
+    scrollbar-width: thin;
+}
+
+img {
+    border: 2px solid rgb(49, 49, 49);
+    width: 110px;
+    height: 100%;
+}
+
+.halloffame img {
+    width: 100px;
+    height: auto;
+
+}
+p {
+    margin: 2.5% auto;
+    line-height: 115%;
+}
+
+a {
+    padding: 1% 0%;
+}
+
+.back {
+    margin: 3% auto;
+    margin-bottom: 8%;
+    font-size: 90%;
+}
+
+a:link {
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(236, 137, 56) !important;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color:rgb(221, 177, 253);
+    text-decoration: none;
+}
+
+footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+summary::after{
+  content: ' +';
+}
+[open] summary::after {
+  content: ' -';
+}
+
+summary::marker {
+    content: none;
+}
+
