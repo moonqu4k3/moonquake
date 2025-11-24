@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    width: 500px;
+    width: 600px;
     height: auto;
     margin: auto;
     margin-top: 8%;
@@ -25,7 +25,7 @@ body {
 
 /** navigation bar start **/
 .navbar {
-    width: 490px;
+    width: 590px;
     height: auto;
     margin: 0 auto;
     display: flex;
