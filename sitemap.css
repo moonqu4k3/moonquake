@@ -102,7 +102,7 @@ a {
 
 a:link {
     color:rgb(0, 0, 0);
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover {
     color: rgb(115, 27, 150) !important;
