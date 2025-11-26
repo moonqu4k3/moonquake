@@ -38,12 +38,12 @@ border-width: 25px;
     width: 100%;
     height: 600px;
     padding: 6px;
-    background-color: antiquewhite;
+    background-color: floralwhite;
 
     overflow:scroll;
     overflow-x: hidden;
         
-    border: 2px solid #c99c78;
+    border: 2px solid lavender;
     border-right-style: none;
     border-radius: 0 0 0 10px;
 }
@@ -72,9 +72,9 @@ border: 1px solid #ebafaf;
     flex-direction: column;
     width: 250px;
     padding: 1% 4px;
-    background-color: rgb(250, 218, 204);
+    background-color: plum;
     
-    border: 2px solid #c99c78;
+    border: 2px solid lavender;
     border-left-style: none;
     border-radius: 0 0 10px 0;
 }
@@ -100,7 +100,7 @@ border: 1px solid #ebafaf;
     width: 50%;
 }
 .header img {
-    border: 2px solid #c99c78;
+    border: 2px solid lavender;
     border-bottom-style: none;
     border-radius: 10px 10px 0 0;    
     width: 100%;
@@ -113,7 +113,7 @@ details img {
     padding: 3px; 
     margin: 0 8px;
     
-    border: 2px solid rgb(216, 180, 180);
+    border: 2px solid rebeccapurple);
 }
 .side img {
     width: 200px;
@@ -121,7 +121,7 @@ details img {
     float: right;
     padding: 3px; 
     margin: 8px;
-    border: 2px solid rgb(216, 180, 180);
+    border: 2px solid rebeccapurple;
 }
 
 
