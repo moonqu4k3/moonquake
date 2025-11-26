@@ -3,8 +3,8 @@ html {
     font-size: 16px;
     line-height: 130%;
     letter-spacing: -0.2px;
-    background-image: url(/images/amano butterflies.jpg);
-    background-color: rgba(28, 28, 28, 0.76);
+    <!--background-image: url(/images/amano butterflies.jpg);-->
+    background-color: rgb(28, 28, 28);
     background-blend-mode: lighten;    
 }
 
