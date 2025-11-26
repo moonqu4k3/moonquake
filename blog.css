@@ -44,6 +44,7 @@ border-width: 25px;
     overflow-x: hidden;
         
     border: 2px solid plum;
+    border-top-style: none;
     border-right-style: none;
     border-radius: 0 0 0 10px;
 }
