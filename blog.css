@@ -43,7 +43,7 @@ border-width: 25px;
     overflow:scroll;
     overflow-x: hidden;
         
-    border: 2px solid lavender;
+    border: 2px solid plum;
     border-right-style: none;
     border-radius: 0 0 0 10px;
 }
@@ -74,7 +74,7 @@ border: 1px solid #ebafaf;
     padding: 1% 4px;
     background-color: thistle;
     
-    border: 2px solid lavender;
+    border: 2px solid plum;
     border-left-style: none;
     border-radius: 0 0 10px 0;
 }
@@ -100,7 +100,7 @@ border: 1px solid #ebafaf;
     width: 50%;
 }
 .header img {
-    border: 2px solid lavender;
+    border: 2px solid plum;
     border-bottom-style: none;
     border-radius: 10px 10px 0 0;    
     width: 100%;
