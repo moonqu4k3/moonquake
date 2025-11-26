@@ -76,6 +76,7 @@ border: 1px solid #ebafaf;
     background-color: thistle;
     
     border: 2px solid plum;
+    border-top-style: none;
     border-left-style: none;
     border-radius: 0 0 10px 0;
 }
