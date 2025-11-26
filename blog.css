@@ -14,9 +14,9 @@ body {
     margin: auto;
     margin-top: 25px;
 
-border-width: 8px;
+border-width: 25px;
           border-style: solid;
-          border-image: url(images/opaque white lace border.png) 8 fill round;
+          border-image: url(images/opaque white lace border.png) 25 fill round;
       }
       
 
