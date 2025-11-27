@@ -118,12 +118,11 @@ details img {
     border: 2px solid rebeccapurple);
 }
 .side img {
-    width: 200px;
+    height: 200px;
     align-self: flex-start;
     float: right;
     padding: 3px; 
     margin: 8px;
-    border: 2px solid rebeccapurple;
 }
 
 
