@@ -1,3 +1,22 @@
+body{
+    color:#fff;
+    font-family: Georgia;
+    font-size: 16px;
+    line-height:110%;
+    text-align:center;
+    margin:10px;
+    background-color: black;
+}
+
+header{
+    color: purple;
+    font-family: Georgia;
+    font-size:27px;
+    letter-spacing:3px;
+    margin-bottom:10px;
+    line-height:100%;
+    text-align:center;
+
 .banner {
     box-sizing:border-box;
     display:flex;
@@ -6,6 +25,7 @@
     align-items:flex-end;
     flex-direction:column;
 }
+
 .container {
     max-width:100%;
     display:grid;
