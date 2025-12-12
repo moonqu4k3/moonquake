@@ -1,3 +1,4 @@
+
 :root {
     --border-color: #46290f;
     --header-text-stroke: rgb(49, 15, 5);
@@ -10,27 +11,36 @@
     --link-hover-color: rgb(236, 137, 56);
     --button-hover-color: rgb(230, 215, 205);
     --page-bg: url(/images/iris.jpeg);
-
-body{
-    color:var(--mainbody-bg-color);
-    font-family: Georgia;
-    font-size: 16px;
-    line-height:110%;
-    text-align:center;
-    margin:10px;
-    background-image: 
-    background-color: black;
 }
 
-header{
-    color: purple;
-    font-family: Georgia;
-    font-size:27px;
-    letter-spacing:3px;
-    margin-bottom:10px;
-    line-height:100%;
-    text-align:center;
+body.stars-mode {
+    --border-color: #223677;
+    --header-text-stroke: rgb(5, 8, 49);
+    --header-text-color: rgb(215, 220, 250);
+    --mainbody-bg-color: rgba(61, 93, 134, 0.596);
+    --left-bg-color: rgb(36, 40, 54);
+    --nav-button-bg: rgb(46, 63, 156);
+    --img-border: 2px solid rgb(61, 70, 85);
+    --p-title-color: rgb(182, 196, 241); 
+    --link-hover-color: rgb(81, 113, 216);
+    --button-hover-color: rgb(205, 215, 230);
+    --page-bg: url(/jv/jv_bgstars.png);
 }
+
+body.timelines-mode {
+    --border-color: #36105a;
+    --header-text-stroke: rgb(26, 5, 49);
+    --header-text-color: rgb(237, 215, 250);
+    --mainbody-bg-color: rgba(95, 61, 134, 0.596);
+    --left-bg-color: rgb(43, 36, 54);
+    --nav-button-bg: rgb(97, 37, 146);
+    --img-border: 2px solid rgb(74, 61, 85);
+    --p-title-color: rgb(208, 182, 241); 
+    --link-hover-color: rgb(133, 81, 216);
+    --button-hover-color: rgb(220, 205, 230);
+    --page-bg: url(/jv/jv_bgtimelines.jpg);
+}
+
 
 html {
     font-family: "MS PGothic", Georgia, 'Times New Roman', Times, serif;
@@ -107,6 +117,22 @@ body {
 .headerimg > img:nth-of-type(2) {
     display: none;
 }
+/*header stars mode*/
+body.stars-mode .headerimg > img:first-child {
+    display: none;
+}
+
+body.stars-mode .headerimg > img:nth-of-type(2) {
+    display: block;
+}
+/*header timelines mode*/
+body.timelines-mode .headerimg > img:first-child {
+    display: none;
+}
+
+body.timelines-mode .headerimg > img:last-of-type {
+    display: block;
+}
 
 /*left section*/
 .left {
@@ -145,11 +171,11 @@ ul {
 
 }
 
-#tomoebio{
+#jaycebio{
     flex-direction: column;
 }
 
-#tomoebio {
+#jaycebio {
     padding: 0px;
 }
 .biotext > p {
@@ -162,12 +188,12 @@ ul {
     flex-direction: column;
 }
 
-#tomoebio > img {
+#viktorbio > img {
     height: 180px;
     width: auto;    
 }
 
-#kenshinbio > img {
+#jaycebio > img {
     height: 180px;
     width: auto;
 }
@@ -268,7 +294,7 @@ h3 {
 
 
 button {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "MS PGothic", Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
     padding: 5px 6px;
     margin: 0;
