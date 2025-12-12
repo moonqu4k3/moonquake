@@ -1,14 +1,14 @@
 :root {
-    --border-color: #fff;
-    --header-text-stroke: #885D9C;
+    --border-color: #46290f;
+    --header-text-stroke: rgb(49, 15, 5);
     --header-text-color: antiquewhite;
-    --mainbody-bg-color: black;
-    --left-bg-color: #1c1c1c;
-    --nav-button-bg: #885D9C;
-    --img-border: 2px solid #D35255;
+    --mainbody-bg-color: rgba(134, 95, 61, 0.596);
+    --left-bg-color: rgb(41, 39, 39);
+    --nav-button-bg: rgb(110, 63, 34);
+    --img-border: 2px solid rgb(83, 73, 73);
     --p-title-color: rgb(226, 187, 135); 
-    --link-hover-color: #D35255;
-    --button-hover-color: #E6D7CD;
+    --link-hover-color: rgb(236, 137, 56);
+    --button-hover-color: rgb(230, 215, 205);
     --page-bg: url(/images/iris.jpeg);
 
 body{
