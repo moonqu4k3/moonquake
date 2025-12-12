@@ -9,7 +9,7 @@
     --p-title-color: rgb(226, 187, 135); 
     --link-hover-color: #D35255;
     --button-hover-color: #E6D7CD;
-    --page-bg: #1F1F1F;
+    --page-bg: url(/images/iris.jpeg);
 
 body{
     color:var(--mainbody-bg-color);
@@ -18,7 +18,7 @@ body{
     line-height:110%;
     text-align:center;
     margin:10px;
-    background-image: "images/iris.jpeg"
+    background-image: 
     background-color: black;
 }
 
