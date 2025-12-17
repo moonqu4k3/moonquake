@@ -41,12 +41,12 @@ a:hover {
 }    
   
 b {
-    color:#FA9696;
+    color:#FAC196;
   font-weight:bold;
 }
     
 i {
-    color:#D3B182;
+    color:#B281D3;
     font-weight:bold;
     font-style:italic;
 }
@@ -111,7 +111,7 @@ background: transparent;
 #header {
   height: 200px;
   border:1px solid #333333;
-  background:#fff /*url()*/;
+  background: url(https://i.imgur.com/5CQgaEO.png);
   background-repeat:no-repeat;
   border:1px solid #E7DDBE;
   margin:0px 0px 10px 0;
