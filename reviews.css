@@ -14,7 +14,7 @@ body {
     margin: auto;
     margin-top: 25px;
 
-border-width: 5px;
+border-width: 2px;
           border-style: solid;
           border-color: black;
       }
@@ -43,7 +43,6 @@ border-width: 5px;
     overflow-x: hidden;
         
     border: 2px solid black;
-    border-radius: 0 0 0 0px;
 }
 
 .blog::-webkit-scrollbar {
@@ -72,7 +71,6 @@ border: 1px solid #ebafaf;
     background-color: #f5f5f5;
     
     border: 2px solid black;
-    border-radius: 0 0 0 0;
 }
 
 .text {
@@ -98,8 +96,7 @@ border: 1px solid #ebafaf;
 
 .header img {
     border: 2px solid black;
-    border-bottom-style: none;
-    border-radius: 10px 10px 0 0;    
+    border-bottom-style: none;  
     width: 100%;
     height: auto;
     
@@ -174,9 +171,7 @@ code {
     margin-bottom: 60px;
     background-color: snow;
     border:2px solid whitesmoke;
-
 }
-
 
 .spoiler {
   background: black;
