@@ -4,7 +4,7 @@ html {
     line-height: 130%;
     letter-spacing: -0.2px;
     /*background-image: url(/images/amano butterflies.jpg);*/
-    background-color: rgb(41, 38, 45);
+    background-color: #2c2c2c;
     background-blend-mode: lighten;    
 }
 
@@ -14,7 +14,7 @@ body {
     margin: auto;
     margin-top: 25px;
 
-border-width: 20px;
+border-width: 5px;
           border-style: solid;
           border-color: black;
       }
@@ -37,7 +37,7 @@ border-width: 20px;
     width: 100%;
     height: 500px;
     padding: 6px;
-    background-color: white;
+    background-color: #f5f5f5;
 
     overflow:scroll;
     overflow-x: hidden;
@@ -69,7 +69,7 @@ border: 1px solid #ebafaf;
     flex-direction: column;
     width: 250px;
     padding: 1% 4px;
-    background-color: white;
+    background-color: #f5f5f5;
     
     border: 2px solid black;
     border-radius: 0 0 0 0;
@@ -132,17 +132,17 @@ details p:first-of-type {
 summary {
     font-weight: bolder;
     font-size: 17px;
-    color:#64340d;
+    color: #222222;
 
     margin: 8px 0 ;
 }
 
 summary::marker {
-    content:'✩ '; 
+    content:'ᯓ★ '; 
 }
 
 [open] summary::marker {
-  content: "⟡ ";
+  content: "ᯓ☆ ";
 }
 
 
@@ -154,7 +154,7 @@ h3 {
 }
 
 h4 {
-    color:#64340d;
+    color: #222222;
     font-style: italic;
     margin: 1% 0;
 }
@@ -172,15 +172,15 @@ code {
     font-size: 13px;
     padding: 5px;
     margin-bottom: 60px;
-    background-color: bisque;
-    border:2px solid #ce986b;
+    background-color: snow;
+    border:2px solid whitesmoke;
 
 }
 
 
 .spoiler {
-  background: rgb(230, 179, 155);
-  color: rgb(230, 179, 155);
+  background: black;
+  color: black;
   cursor: help;
   transition: background 0.6s ease 0.3s, color 0.3s ease 0.35s;
 }
@@ -196,13 +196,13 @@ a:link {
     text-decoration: none;
 }
 a:hover {
-    color: rgb(192, 112, 46) !important;
+    color: black !important;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:visited {
-    color:rgb(138, 68, 11);
+    color:rgb(91, 11, 138);
     text-decoration: none;
 }
 
