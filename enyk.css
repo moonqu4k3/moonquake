@@ -121,7 +121,7 @@ background: transparent;
 #content1 {
   background-color:#FFFFFF;
   border:1px solid #E7DDBE;
-  box-shadow: 5px 6px #F5F3E5;
+  box-shadow: 5px 6px lavenderblush;
   margin:0px 0px 15px 0; 
   padding:5px;
   padding-left:8px;
@@ -134,7 +134,7 @@ background: transparent;
   padding:5px; 
   padding-left:8px; 
   border:1px solid #E7DDBE;
-  box-shadow: 5px 6px #F5F3E5; 
+  box-shadow: 5px 6px lavenderblush; 
   width:195px;
   height:115px;
   overflow:auto;
@@ -147,7 +147,7 @@ background: transparent;
   padding:5px; 
   padding-left:8px; 
   border:1px solid #E7DDBE;
-  box-shadow: 5px 6px #F5F3E5; 
+  box-shadow: 5px 6px lavenderblush; 
   width:195px;
   height:115px;
   overflow:auto;
@@ -164,7 +164,7 @@ background: transparent;
   padding:5px; 
   padding-left:8px; 
   border:1px solid #E7DDBE;
-  box-shadow: 5px 6px #F5F3E5;
+  box-shadow: 5px 6px lavenderblush;
 } 
   
 #sidebar {
@@ -181,7 +181,7 @@ background: transparent;
   padding-top:10px;
   padding-left:8px;
   border:1px solid #E7DDBE;
-  box-shadow: 5px 6px #F5F3E5;
+  box-shadow: 5px 6px lavenderblush;
 }
 
 #footer {
