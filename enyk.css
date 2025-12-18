@@ -171,14 +171,13 @@ background: transparent;
   width:175px; 
   float:right; 
   vertical-align:top; 
-  padding:4px 4px 4px 2px;
+  padding:10px 4px 4px 2px;
 }
 
 .sidebox {
   background-color:#FFFFFF;
   margin:0px 0px 15px 5px;
   padding:5px;
-  padding-top:10px;
   padding-left:8px;
   border:1px solid #E7DDBE;
   box-shadow: 5px 6px lavenderblush;
