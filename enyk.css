@@ -92,7 +92,7 @@ background: transparent;
   margin:0px 0px 10px 0;
   padding:5px;
   padding-top:7px;
-  border:1px solid #E7DDBE;
+  border:1px solid mistyrose;
   text-align:center;
 }
 
@@ -113,14 +113,14 @@ background: transparent;
   border:1px solid #333333;
   background: url(https://i.imgur.com/woD6hH3.png);
   background-repeat:no-repeat;
-  border:1px solid #E7DDBE;
+  border:1px solid mistyrose;
   margin:0px 0px 10px 0;
   padding:0px;
 }
 
 #content1 {
   background-color:#FFFFFF;
-  border:1px solid #E7DDBE;
+  border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   margin:0px 0px 15px 0; 
   padding:5px;
@@ -133,7 +133,7 @@ background: transparent;
   margin:0px 1px 15px 0; 
   padding:5px; 
   padding-left:8px; 
-  border:1px solid #E7DDBE;
+  border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush; 
   width:195px;
   height:115px;
@@ -146,7 +146,7 @@ background: transparent;
   margin:0px 0px 15px 1px; 
   padding:5px; 
   padding-left:8px; 
-  border:1px solid #E7DDBE;
+  border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush; 
   width:195px;
   height:115px;
@@ -163,7 +163,7 @@ background: transparent;
   margin:0px 0px 15px 0; 
   padding:5px; 
   padding-left:8px; 
-  border:1px solid #E7DDBE;
+  border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
 } 
   
@@ -179,7 +179,7 @@ background: transparent;
   margin:0px 0px 15px 5px;
   padding:5px;
   padding-left:8px;
-  border:1px solid #E7DDBE;
+  border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
 }
 
