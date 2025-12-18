@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: #fdfdfd /*url ()*/; 
+  background: "/images/enyk bg.gif"; 
   color: #777;
   font:10px;
   letter-spacing:1px;
