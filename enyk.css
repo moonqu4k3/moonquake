@@ -19,7 +19,7 @@ body {
 .title {
     background:transparent;
     text-transform:uppercase;
-    font:bold 10px arial, monospace; 
+    font:bold 9px arial, monospace; 
     color:#666;
     line-height:10px;
     padding:1px;
@@ -84,7 +84,7 @@ background: transparent;
 }
 
 #navi {
-  font:bold 10px arial, monospace;
+  font:bold 9px arial, monospace;
   background-color:#fff;
   color:#777777;
   text-transform:uppercase;
