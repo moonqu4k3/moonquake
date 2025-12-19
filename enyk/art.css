@@ -8,7 +8,7 @@
         --image-width: 300px;
         
         /* height of the images. can be set to auto if you want images to be shown in full, but will no longer be a grid */
-        --image-height: 300px;
+        --image-height: auto;
         
         /* flex-start to float images in the last row to the left of the container and center to center */
         --image-justify: flex-end;
@@ -25,13 +25,16 @@
         /* ----------------- image variables ----------------- */
         
         /* when hovering images, overlay with this color */
-        --image-overlay: rgba(0, 0, 0, 0.5);
+        --image-overlay: rgba(255, 255, 255, 0.5);
         
         /* border of the images */
-        --image-border: 2px solid #000;
+        --image-border: 1px solid mistyrose;
 
         /* border radius of the images */
         --image-border-radius: 0px;
+
+        /* box shadow of the images */
+        --image-box-shadow: 5px 6px lavenderblush;
 
         /* border of the images for dark mode */
         --image-border-dark: 2px solid #fff;
@@ -42,7 +45,7 @@
         --caption-color: #fff;
         
         /* font size for the caption */
-        --caption-font-size: 1rem;
+        --caption-font-size: 10px
         
         /* padding for the caption, the popup, and the tag buttons */
         --caption-padding: var(--gap);
@@ -50,7 +53,7 @@
         /* ----------------- popup variables ----------------- */
 
         /* when the popup is opened, overlay with this color */
-        --page-overlay: rgba(0, 0, 0, 0.7);
+        --page-overlay: rgba(255, 255, 255, 0.7);
         
         /* max width of the popup */
         --popup-width: 50rem;
@@ -68,7 +71,7 @@
         --popup-text: #000;
 
         /* box shadow for the popup */
-        --popup-box-shadow: 4px 4px 0 rgb(0, 0, 0, 0.5);
+        --popup-box-shadow: 5px 6px lavenderblush;
         
         /* border for the popup */
         --popup-border: var(--image-border);
