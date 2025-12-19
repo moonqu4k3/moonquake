@@ -492,16 +492,16 @@
        styling cribbed from tiny brutalism css:
        https://github.com/pruger/tiny-brutalism-css */
 
-    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
-
     body {
-        font-family: 'Roboto Mono', monospace;
+        font-family: 'Lato', 'Calibri', 'Verdana';
+        background: url("/images/enyk bg.gif");
         background-color: #fff;
-        color: #000;
-        line-height: 1.7rem;
+        font:10px;
+        letter-spacing:1px;
+        line-height: 100%;
         margin: 0 auto;
         min-height: 100svh;
-        padding: 2rem 2rem;
+        padding:0px 0px 5px 0px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
