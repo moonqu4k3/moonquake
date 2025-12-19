@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive gallery with javascript free popup modals</title>
+    <link href="art.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <main>
+
+        <!-- for every category you use, you must add a new checkbox -->
+
+        
+        <form>
+            <label><input type="checkbox" name="day">#day (5)</label>
+            <label><input type="checkbox" name="night">#night (5)</label>
+            <label><input type="checkbox" name="vietnam">#vietnam (3)</label>
+            <label><input type="checkbox" name="thailand">#thailand (3)</label>
+            <label><input type="checkbox" name="indonesia">#indonesia (1)</label>
+            <label><input type="checkbox" name="taiwan">#taiwan (1)</label>
+            <label><input type="checkbox" name="japan">#japan (1)</label>
+            <label><input type="checkbox" name="china">#china (1)</label>
+        </form>
+
+        <!-- image gallery starts here -->
+
+        <div id="image-grid-container">
+
+            
+
+            <section category="indonesia day ">
+                <input class="modal-toggle" id="modal-entry-01" type="checkbox" />
+                <label class="modal-open" for="modal-entry-01">
+                    <div class="img-box">
+                        <img src="images/image-1.jpg" alt="image 1 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 1</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-01"></label>
+                    <div class="modal-content">
+                        <p>entry for image one. yap about something here.<br>
+i made this page while test driving adding a filter system to my <a href="/crafts/">crafts</a> page, which i thought with a little tweaking could be shared as a media log template. so each image could be a image-gallery, game, movie, etc. and the popup could have a review. then the tags could be the genre and/or the year you finished it.<br>
+or you could have the gallery be thumbnails of your art and the popup could have a bigger version with a description, tagged with the character, medium, or theme.<br>
+or a gallery of your photography, with your memories of the time you took it in the popup, tagged by location.<br>
+etc, etc, etc.<br>
+Photo by <a href="https://unsplash.com/@armatyar?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Cikal Armatyar</a> on <a href="https://unsplash.com/photos/a-group-of-people-riding-motorcycles-down-a-street-mtfHvjmbXTU?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="thailand night ">
+                <input class="modal-toggle" id="modal-entry-02" type="checkbox" />
+                <label class="modal-open" for="modal-entry-02">
+                    <div class="img-box">
+                        <img src="images/image-2.jpg" alt="image 2 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 2</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-02"></label>
+                    <div class="modal-content">
+                        <p>entry for image two goes here.</p>
+<p>the gallery is designed to display images in a grid, where the width and height of each image is the same and set by the css variables <code>--image-width</code> and <code>--image-height</code>.</p>
+<p>you don’t need to use images of the same size or aspect ratio, <code>object-fit: cover</code> will take care of that.</p>
+<p>even though i didn’t design for it, you can set <code>--image-height</code> to auto if you don’t want each image to have the same dimensions. weird things may happen though and manually tweaking the rest of the code may be necessary.</p>
+<p>Photo by <a href="https://unsplash.com/@goldenantelope?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Golden Antelope</a> on <a href="https://unsplash.com/photos/a-couple-of-motorcycles-parked-outside-a-building-8kdDgQvHUz8?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="vietnam day ">
+                <input class="modal-toggle" id="modal-entry-03" type="checkbox" />
+                <label class="modal-open" for="modal-entry-03">
+                    <div class="img-box">
+                        <img src="images/image-3.jpg" alt="image 3 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 3</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-03"></label>
+                    <div class="modal-content">
+                        <p>entry for image three goes here.</p>
+<p>the buttons to filter the gallery are inside <code>&lt;form&gt;</code>. if you don’t want the tagging system, simply</p>
+<ul>
+<li>delete the <code>&lt;form&gt;</code> element</li>
+<li>delete the css styling for <code>form</code>
+<ul>
+<li>this includes the area with <code>form:has([name=...</code></li>
+<li>remember to delete the bit inside of <code>@media (prefers-color-scheme: dark) {}</code> too</li>
+</ul>
+</li>
+<li>remove the <code>category</code> attributes from the <code>&lt;section&gt;</code> elements</li>
+</ul>
+<p>to remove the popups</p>
+<ul>
+<li>delete the line that starts with <code>&lt;input class=&quot;modal-toggle&quot;</code></li>
+<li>delete the line that starts with <code>&lt;label class=&quot;modal-open&quot;</code>, then delete its closing tag (before <code>&lt;dialog&gt;</code>)</li>
+<li>delete the entire <code>&lt;dialog&gt;</code> element inside of <code>&lt;section&gt;</code></li>
+<li>delete css that starts with <code>.modal</code></li>
+<li>delete the javascript</li>
+</ul>
+<p>Photo by <a href="https://unsplash.com/@potokvarte?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Hanna Lazar</a> on <a href="https://unsplash.com/photos/cityscape-with-construction-and-diverse-building-styles-33hJ58BqH6I?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="thailand night ">
+                <input class="modal-toggle" id="modal-entry-04" type="checkbox" />
+                <label class="modal-open" for="modal-entry-04">
+                    <div class="img-box">
+                        <img src="images/image-4.jpg" alt="image 4 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 4</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-04"></label>
+                    <div class="modal-content">
+                        <p>entry for image four goes here.</p>
+<p>each image and its popup are inside of a <code>&lt;section&gt;</code> in the <code>&lt;div id=&quot;image-grid-container&quot;&gt;</code> element. each <code>&lt;section&gt;</code> <strong>must</strong> have a unique <code>modal-entry-{entry}</code>. this is how the page knows which popup to open when you click on a given image.</p>
+<p>this <code>modal-entry-{entry}</code> is used in three places for every <code>&lt;section&gt;</code>:</p>
+<ul>
+<li>the <code>id</code> of the <code>&lt;input&gt;</code></li>
+<li>the <code>for</code> attribute of the <code>&lt;label&gt;</code> that wraps the image</li>
+<li>the <code>for</code> attribute of the <code>&lt;label&gt;</code> that wraps the page behind the popup when it is open</li>
+</ul>
+<p>Photo by <a href="https://unsplash.com/@theotopolevsky?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Theo Topolevsky</a> on <a href="https://unsplash.com/photos/a-shopping-cart-is-parked-on-the-side-of-the-street-zgP8AbxBO8c?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="china day ">
+                <input class="modal-toggle" id="modal-entry-05" type="checkbox" />
+                <label class="modal-open" for="modal-entry-05">
+                    <div class="img-box">
+                        <img src="images/image-5.jpg" alt="image 5 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 5</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-05"></label>
+                    <div class="modal-content">
+                        <p>entry for image five goes here.</p>
+<p>furthermore, each <code>&lt;section&gt;</code> should have a <code>category</code> attribute. this is the tagging system. the gallery will still work even if a <code>&lt;section&gt;</code> is missing it, that photo just won’t be selected by any tag.</p>
+<p>the <code>category</code> attribute can take as many values as you want it to, just put a space between each tag. obviously this means your tags can’t have a space in them, but you can always put a space in the <code>&lt;label&gt;</code> element that shows your tag name.</p>
+<p>every time you use a new tag in your gallery, you must do the following:</p>
+<ul>
+<li>in the html, search for <code>&lt;form&gt;</code> and add a new <code>&lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;tag&quot;&gt;#tag&lt;/label&gt;</code> inside of it, replacing <code>tag</code> with your new tag. this adds a new button at the top of your page.</li>
+<li>in the css, search for <code>form:has([name</code>. add a new <code>form:has([name=&quot;tag&quot;]:checked)~#image-grid-container section:not([category~=&quot;tag&quot;])</code> but replace <code>tag</code> with your new tag. this is how clicking a button closes <code>&lt;section&gt;</code>s that don’t have the corresponding tag. if you forget this, the button you added in the last step won’t do anything.</li>
+</ul>
+<p>Photo by <a href="https://unsplash.com/@billow926?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">billow926</a> on <a href="https://unsplash.com/photos/man-in-white-t-shirt-riding-on-black-motorcycle-during-daytime-YTJDGgCTREc?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="japan night ">
+                <input class="modal-toggle" id="modal-entry-06" type="checkbox" />
+                <label class="modal-open" for="modal-entry-06">
+                    <div class="img-box">
+                        <img src="images/image-6.jpg" alt="image 6 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 6</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-06"></label>
+                    <div class="modal-content">
+                        <p>entry for image six goes here.<br>
+if you’re a lazy person like me and don’t want to copy and paste new <code>&lt;section&gt;</code> elements for each image then manually update every <code>modal-entry-{entry}</code> and on top of that try to remember to update <code>form</code> every time you add a new category, you can use a static site generator like <a href="https://www.11ty.dev/" target="'_blank'">11ty</a> to automatically generate the page from a json file or folder of markdown files. i have a tutorial explaining how to do so from a json file <a href="/notes/030-my-notes/building-a-web-page-from-json-data-using-11ty">here</a>, it should be easy enough to follow even if you have no idea what json is.<br>
+this page was generated from markdown files, where the content of each popup is the body of the file, and its associated data (<code>category</code> values, caption, image, and image alt text) are stored in the yaml front matter. i don’t currently have a tutorial on that, but you can take a look at <a href="https://github.com/balfiere/neocities/tree/main/eleventy/neocities/codes/gallery-with-tag-system" target="'_blank'">this page’s source code</a> to see how it works (or just straight up use it as a template). i also have a note explaining how one can work with external markdown files in 11ty <a href="/notes/030-my-notes/methods-of-using-markdown-with-11ty">here</a>. the “collections” header has the relevant information. the filter i use to get all values of <code>categories</code> used in a collection, sorting them and returning the number of occurences can be seen <a href="https://github.com/balfiere/neocities/blob/main/eleventy/filters/extractKeyWithCount.js" target="'_blank'">here</a>. this is used to automatically build the tagging system.<br>
+Photo by <a href="https://unsplash.com/@fabianbaechli?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Fabian Bächli</a> on <a href="https://unsplash.com/photos/a-dark-alley-with-a-few-shops-on-the-side-of-it-BdfhE2ST1tE?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="vietnam day ">
+                <input class="modal-toggle" id="modal-entry-07" type="checkbox" />
+                <label class="modal-open" for="modal-entry-07">
+                    <div class="img-box">
+                        <img src="images/image-7.jpg" alt="image 7 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 7</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-07"></label>
+                    <div class="modal-content">
+                        <p>entry for image seven goes here.<br>
+if you change the width of the images, the page padding, the gap, or the max number of images per row, search for <code>@media screen</code> and adjust the max-widths. this section controls break points to make your gallery center on the screen. i have notes explaining what this section does in the code comments in more detail and how to calculate breakpoints precisely.<br>
+or just set <code>--image-justify</code> to center. then images will be centered on the page no matter what. or if you don’t care about the getting the images to center, you can delete these media queries (although i recommend keeping the last one for the case of a single column).<br>
+even if you leave it how it is however it should still be responsive and mobile friendly.<br>
+Photo by <a href="https://unsplash.com/@duke91?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Duc Van</a> on <a href="https://unsplash.com/photos/a-narrow-alley-way-with-a-clock-on-the-wall-P4WsoMMa4yM?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="taiwan night ">
+                <input class="modal-toggle" id="modal-entry-08" type="checkbox" />
+                <label class="modal-open" for="modal-entry-08">
+                    <div class="img-box">
+                        <img src="images/image-8.jpg" alt="image 8 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 8</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-08"></label>
+                    <div class="modal-content">
+                        <p>entry for image eight goes here.<br>
+even though i said that this gallery is javascript free, it’s more like it doesn’t rely on javascript to work. a small bit of javascript is used to allow one to select an image and open its modal with the enter key, and to close the modals by hitting the escape key.<br>
+the page is still useable even if javascript is disabled however. you can try this by opening up dev tools and disabling javascript.<br>
+eventually i plan to see if i can implement <a href="https://developer.chrome.com/blog/command-and-commandfor" target="'_blank'">command and commandfor</a> with the <code>&lt;dialog&gt;</code> element to simplify the html/css and remove the javascript entirely while increasing keyboard accessibility once firefox supports it.<br>
+Photo by <a href="https://unsplash.com/@ktfrancis?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">K.T. Francis</a> on <a href="https://unsplash.com/photos/a-row-of-buildings-N8zv7KyjjXQ?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="thailand day ">
+                <input class="modal-toggle" id="modal-entry-09" type="checkbox" />
+                <label class="modal-open" for="modal-entry-09">
+                    <div class="img-box">
+                        <img src="images/image-9.jpg" alt="image 9 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 9</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-09"></label>
+                    <div class="modal-content">
+                        <p>entry for image nine goes here.<br>
+i’ve left comments in the code to explain what’s going on, what needs to be changed and what you’d be most likely to want to tweak, so you can edit the code more easily. i also use css variables to make it easier to adjust things out of the box.<br>
+i have only added styling related specifically to the gallery and modals to make it easier to copy and paste the code onto an existing page of yours, or to import your own site’s styling.<br>
+if you want to copy this into an existing page of yours, i highly recommend copying the <code>&lt;main&gt;</code> element in its entirety, renaming it to <code>&lt;div id=&quot;gallery&quot;&gt;</code> or something if you already have a <code>&lt;main&gt;</code> element. this is because the code that filters the images relies on the sibling selector; <code>&lt;form&gt;</code> and <code>&lt;div id=&quot;image-grid-container&quot;&gt;</code> <strong>must</strong> be siblings with <code>&lt;form&gt;</code> coming first. if you don’t know what that means keeping them in the same container then not adding new elements to it would be the simplest way of keeping everything working.<br>
+Photo by <a href="https://unsplash.com/@markuswinkler?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Markus Winkler</a> on <a href="https://unsplash.com/photos/a-street-with-cars-and-buildings-5NAJr_RjCuI?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+            <section category="vietnam night ">
+                <input class="modal-toggle" id="modal-entry-10" type="checkbox" />
+                <label class="modal-open" for="modal-entry-10">
+                    <div class="img-box">
+                        <img src="images/image-10.jpg" alt="image 10 alt text" />
+                        <div class="transparent-box">
+                            <span class="caption">
+                                <h3>image 10</h3>
+                            </span>
+                        </div>
+                    </div>
+                </label>
+                <dialog class="modal">
+                    <label class="modal-close" for="modal-entry-10"></label>
+                    <div class="modal-content">
+                        <p>this theme is shared under the <a href="https://unlicense.org/" target="'_blank'">unlicense</a>.<br>
+i love to share what resources i’ve found helpful here on my site. if you feel the same way, if you use this theme consider crediting me or linking back to my site so it might help someone else too.<br>
+Photo by <a href="https://unsplash.com/@seoling?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Hưng Phạm</a> on <a href="https://unsplash.com/photos/a-dark-alley-with-many-lights-hanging-from-the-ceiling-l6eXsqQ4jx0?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
+
+                    </div>
+                </dialog>
+            </section>
+
+            
+
+        </div>
+    </main>
+    <footer>
+        <h1>responsive gallery with javascript free popup modals and filtering system</h1>
+        <p>close modals by clicking outside the popup or pressing esc on your keyboard. all the necessary code is
+            included in the html file, just view page source and save. just want the gallery? click on image 3 for instructions to
+            remove the tag system and/or popups. <a href="/">go back?</a></p>
+    </footer>
+</body>
+
+<script>
+    // even though opening and closing the modals work without javascript,
+    // we can make the modals more accessible to keyboard users 
+    // by allowing them to be opened with enter and closed with 
+    // the escape key
+
+    // add a tabindex to all elements that open modals
+    document.querySelectorAll('.modal-open').forEach(element => {
+        element.setAttribute('tabindex', 0)
+        console.log(element)
+    })
+
+    document.onkeydown = function (event) {
+        if (event.key === "Escape" && document.querySelector('.modal-toggle:checked ~ .modal .modal-close')) {
+            document.querySelector('.modal-toggle:checked ~ .modal .modal-close').click()
+        }
+        // if a <label class="modal-open" for="modal-entry-i" tabindex="i"> is focused, allow opening the modal with enter
+        if (event.key === "Enter" && document.activeElement.getAttribute('for')) {
+            document.getElementById(document.activeElement.getAttribute('for')).click()
+        }
+    }
+</script>
+
+<!-- gallery coded with love by kwaamfan: https://kwaamfan.haliya.net/ -->
+
+</html>
