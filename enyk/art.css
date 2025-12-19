@@ -142,6 +142,7 @@
             cursor: pointer;
             padding: var(--tag-padding);
             border: var(--tag-border);
+            box-shadow: var(--image-box-shadow);
             border-radius: var(--tag-border-radius);
             background-color: var(--tag-background-color);
             color: var(--tag-text);
@@ -223,6 +224,7 @@
         height: var(--image-height);
         overflow: hidden;
         border: var(--image-border);
+        box-shadow: var(--image-box-shadow);
         border-radius: var(--image-border-radius);
 
         & img {
