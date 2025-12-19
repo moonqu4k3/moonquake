@@ -163,14 +163,15 @@
     /* hide images that don't match the selected filters. must be updated every time a new filter is added */
 
     
-    form:has([name="china"]:checked)~#image-grid-container section:not([category~="china"]), 
-    form:has([name="day"]:checked)~#image-grid-container section:not([category~="day"]), 
-    form:has([name="indonesia"]:checked)~#image-grid-container section:not([category~="indonesia"]), 
-    form:has([name="japan"]:checked)~#image-grid-container section:not([category~="japan"]), 
-    form:has([name="night"]:checked)~#image-grid-container section:not([category~="night"]), 
-    form:has([name="taiwan"]:checked)~#image-grid-container section:not([category~="taiwan"]), 
-    form:has([name="thailand"]:checked)~#image-grid-container section:not([category~="thailand"]), 
-    form:has([name="vietnam"]:checked)~#image-grid-container section:not([category~="vietnam"]) {
+    form:has([name="eniyukie"]:checked)~#image-grid-container section:not([category~="eniyukie"]), 
+    form:has([name="yukie"]:checked)~#image-grid-container section:not([category~="yukie"]), 
+    form:has([name="referencesheet"]:checked)~#image-grid-container section:not([category~="referencesheet"]), 
+    form:has([name="nsfw"]:checked)~#image-grid-container section:not([category~="nsfw"]), 
+    form:has([name="vgen"]:checked)~#image-grid-container section:not([category~="vgen"]), 
+    form:has([name="skeb"]:checked)~#image-grid-container section:not([category~="skeb"]), 
+    form:has([name="crepe"]:checked)~#image-grid-container section:not([category~="crepe"]), 
+    form:has([name="direct"]:checked)~#image-grid-container section:not([category~="direct"]),
+    form:has([name="self-drawn"]:checked)~#image-grid-container section:not([category~="self-drawn"]) {
         display: none;
     }
 
@@ -521,7 +522,7 @@
     }
 
     a {
-        color: rgb(179, 26, 26);
+        color: #444;
     }
 
     ul {
