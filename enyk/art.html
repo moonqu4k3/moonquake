@@ -4,32 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>responsive gallery with javascript free popup modals</title>
+    <title>enyk art gallery</title>
     <link href="art.css" rel="stylesheet" type="text/css" media="all">
 </head>
+    
 <body>
     <main>
-
         <!-- for every category you use, you must add a new checkbox -->
-
-        
         <form>
-            <label><input type="checkbox" name="day">#day (5)</label>
-            <label><input type="checkbox" name="night">#night (5)</label>
-            <label><input type="checkbox" name="vietnam">#vietnam (3)</label>
-            <label><input type="checkbox" name="thailand">#thailand (3)</label>
-            <label><input type="checkbox" name="indonesia">#indonesia (1)</label>
-            <label><input type="checkbox" name="taiwan">#taiwan (1)</label>
-            <label><input type="checkbox" name="japan">#japan (1)</label>
-            <label><input type="checkbox" name="china">#china (1)</label>
+            <label><input type="checkbox" name="eniyukie">#eniyukie</label>
+            <label><input type="checkbox" name="yukie">#yukie</label>
+            <label><input type="checkbox" name="referencesheet">#referencesheet</label>
+            <label><input type="checkbox" name="nsfw">#nsfw</label>
+            <label><input type="checkbox" name="vgen">#vgen</label>
+            <label><input type="checkbox" name="skeb">#skeb</label>
+            <label><input type="checkbox" name="crepe">#crepe (1)</label>
+            <label><input type="checkbox" name="direct">#direct (1)</label>
         </form>
 
         <!-- image gallery starts here -->
-
         <div id="image-grid-container">
-
-            
-
             <section category="indonesia day ">
                 <input class="modal-toggle" id="modal-entry-01" type="checkbox" />
                 <label class="modal-open" for="modal-entry-01">
@@ -56,8 +50,6 @@ Photo by <a href="https://unsplash.com/@armatyar?utm_content=creditCopyText&amp;
                 </dialog>
             </section>
 
-            
-
             <section category="thailand night ">
                 <input class="modal-toggle" id="modal-entry-02" type="checkbox" />
                 <label class="modal-open" for="modal-entry-02">
@@ -78,12 +70,9 @@ Photo by <a href="https://unsplash.com/@armatyar?utm_content=creditCopyText&amp;
 <p>you don’t need to use images of the same size or aspect ratio, <code>object-fit: cover</code> will take care of that.</p>
 <p>even though i didn’t design for it, you can set <code>--image-height</code> to auto if you don’t want each image to have the same dimensions. weird things may happen though and manually tweaking the rest of the code may be necessary.</p>
 <p>Photo by <a href="https://unsplash.com/@goldenantelope?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Golden Antelope</a> on <a href="https://unsplash.com/photos/a-couple-of-motorcycles-parked-outside-a-building-8kdDgQvHUz8?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
-
                     </div>
                 </dialog>
             </section>
-
-            
 
             <section category="vietnam day ">
                 <input class="modal-toggle" id="modal-entry-03" type="checkbox" />
@@ -121,12 +110,9 @@ Photo by <a href="https://unsplash.com/@armatyar?utm_content=creditCopyText&amp;
 <li>delete the javascript</li>
 </ul>
 <p>Photo by <a href="https://unsplash.com/@potokvarte?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Hanna Lazar</a> on <a href="https://unsplash.com/photos/cityscape-with-construction-and-diverse-building-styles-33hJ58BqH6I?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
-
                     </div>
                 </dialog>
             </section>
-
-            
 
             <section category="thailand night ">
                 <input class="modal-toggle" id="modal-entry-04" type="checkbox" />
@@ -152,12 +138,9 @@ Photo by <a href="https://unsplash.com/@armatyar?utm_content=creditCopyText&amp;
 <li>the <code>for</code> attribute of the <code>&lt;label&gt;</code> that wraps the page behind the popup when it is open</li>
 </ul>
 <p>Photo by <a href="https://unsplash.com/@theotopolevsky?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Theo Topolevsky</a> on <a href="https://unsplash.com/photos/a-shopping-cart-is-parked-on-the-side-of-the-street-zgP8AbxBO8c?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash" target="'_blank'">Unsplash</a></p>
-
                     </div>
                 </dialog>
             </section>
-
-            
 
             <section category="china day ">
                 <input class="modal-toggle" id="modal-entry-05" type="checkbox" />
@@ -319,16 +302,10 @@ Photo by <a href="https://unsplash.com/@seoling?utm_content=creditCopyText&amp;u
                     </div>
                 </dialog>
             </section>
-
-            
-
         </div>
     </main>
     <footer>
-        <h1>responsive gallery with javascript free popup modals and filtering system</h1>
-        <p>close modals by clicking outside the popup or pressing esc on your keyboard. all the necessary code is
-            included in the html file, just view page source and save. just want the gallery? click on image 3 for instructions to
-            remove the tag system and/or popups. <a href="/">go back?</a></p>
+        <a href="/enyk">back</a></p>
     </footer>
 </body>
 
