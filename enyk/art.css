@@ -42,10 +42,10 @@
         /* ----------------- caption variables ----------------- */
         
         /* color for the caption */
-        --caption-color: #fff;
+        --caption-color: #000;
         
         /* font size for the caption */
-        --caption-font-size: 10px
+        --caption-font-size: 10px;
         
         /* padding for the caption, the popup, and the tag buttons */
         --caption-padding: var(--gap);
