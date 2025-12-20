@@ -531,6 +531,12 @@
 
     a {
         color: #444;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #B382D3;
+        text-decoration: none;
     }
 
     ul {
