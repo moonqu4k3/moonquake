@@ -91,7 +91,7 @@
         --tag-padding: var(--gap);
 
         /*margins for the tag buttons */
-        --tag-margins: var(--gap);
+        --tag-margin: var(--gap);
 
         /* background color for the tag buttons */
         --tag-background-color: var(--popup-background-color);
@@ -145,7 +145,7 @@
             cursor: pointer;
             font-size: var(--caption-font-size);
             padding: var(--tag-padding);
-            margins: var(--tag-margins);
+            margin: var(--tag-margin);
             border: var(--tag-border);
             box-shadow: var(--image-box-shadow);
             border-radius: var(--tag-border-radius);
