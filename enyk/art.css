@@ -525,6 +525,20 @@
         line-height: 2.5rem;
     }
 
+    h3 {    
+        background: white;
+        text-transform: uppercase;
+        font: bold 9px arial, monospace; 
+        font-weight: 600;
+        color: #666;
+        line-height: 10px;
+        padding: 1px;
+        padding-bottom: 1px;
+        padding-left: 0px;
+        margin-bottom: 4px;
+        letter-spacing: 2px;
+    }
+
     p+p {
         margin-top: 1rem;
     }
