@@ -5,7 +5,7 @@
         --gap: 1rem;
         
         /* width of the images */
-        --image-width: auto;
+        --image-width: 50%;
         
         /* height of the images. can be set to auto if you want images to be shown in full, but will no longer be a grid */
         --image-height: auto;
