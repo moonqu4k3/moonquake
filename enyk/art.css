@@ -96,6 +96,12 @@
         /* background color for the tag buttons */
         --tag-background-color: var(--popup-background-color);
 
+        /* hover color for the tag buttons */
+        --tag-hover-color: lightpink;
+
+        /* clicked color for the tag buttons */
+        --tag-clicked-color: pink;
+
         /* color for the tag buttons */
         --tag-text: var(--popup-text);
 
@@ -153,14 +159,14 @@
             color: var(--tag-text);
 
             &:hover {
-                background: color-mix(in lab, var(--tag-background-color) 90%, var(--tag-background-color-dark));
+                background: color-mix(in lab, var(--tag-hover-color) 90%, var(--tag-background-color-dark));
             }
 
             &:has(:checked) {
-                background: color-mix(in lab, var(--tag-background-color-dark) 30%, var(--tag-background-color));
+                background: color-mix(in lab, var(--tag-clicked-color-dark) 30%, var(--tag-background-color));
                 color: var(--tag-background-color);
                 &:hover {
-                    background: color-mix(in lab, var(--tag-background-color-dark) 10%, var(--tag-background-color));
+                    background: color-mix(in lab, var(--tag-background-color-dark) 10%, var(--tag-hover-color));
                 }
             }
         }
