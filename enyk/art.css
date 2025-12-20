@@ -387,7 +387,7 @@
 
     /* dark mode */
 
-    @media (prefers-color-scheme: dark) {
+    /*@media (prefers-color-scheme: dark) {
         
         form label {
             color: var(--tag-text-dark);
@@ -405,7 +405,7 @@
                     background: color-mix(in lab, var(--tag-background-color) 30%, var(--tag-background-color-dark));
                 }
             }
-        }
+        }*/
 
         .modal-content {
             color: var(--popup-text-dark);
