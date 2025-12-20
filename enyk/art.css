@@ -163,7 +163,7 @@
             }
 
             &:has(:checked) {
-                background: color-mix(in lab, var(--tag-clicked-color-dark) 30%, var(--tag-background-color));
+                background: color-mix(in lab, var(--tag-clicked-color) 30%, var(--tag-background-color-dark));
                 color: var(--tag-background-color);
                 &:hover {
                     background: color-mix(in lab, var(--tag-background-color-dark) 10%, var(--tag-hover-color));
@@ -581,6 +581,38 @@
         margins: 10px 10px 10px 10px;
         text-align: center;
     }
+
+        #navigation {
+          float: center;
+          width: 430px;
+          vertical-align: top;
+          padding: 10px 2px 4px 4px;
+        }
+        
+        #navi {
+          font: bold 9px arial, monospace;
+          background-color: #fff;
+          color: #777777;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          margin: 0px 0px 10px 0;
+          padding: 5px;
+          padding-top: 7px;
+          border: 1px solid mistyrose;
+          text-align: center;
+        }
+        
+        #navi a {
+          font-weight: bold;
+          color: #444;
+          text-decoration: none;
+        }
+        
+        #navi a:hover {
+          font-weight: bold;
+          color: #D3B182;
+          text-decoration: none;
+        }
 
     @media (prefers-color-scheme: dark) {
 
