@@ -577,13 +577,13 @@
         padding: 0.2rem;
     }
 
-    footer {
-        margins: 10px 10px 10px 10px;
-        text-align: center;
-    }
+        #layout {
+          width:618px;
+          text-align:left;
+          margin:auto;
+        }
 
         #navigation {
-          float: center;
           width: 430px;
           vertical-align: top;
           padding: 10px 2px 4px 4px;
@@ -613,6 +613,11 @@
           color: #D3B182;
           text-decoration: none;
         }
+
+    footer {
+        margins: 10px 10px 10px 10px;
+        text-align: center;
+    }
 
     @media (prefers-color-scheme: dark) {
 
