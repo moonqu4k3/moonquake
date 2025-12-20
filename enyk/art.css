@@ -240,7 +240,7 @@
             transition: var(--animation-length) ease;
 
             /* slight desaturation. feel free to remove */
-            filter: grayscale(50%);
+            filter: grayscale(0%);
         }
     }
 
@@ -250,7 +250,7 @@
     .img-box:hover img,
     section label:focus .img-box img {
         transform: scale(1.08);
-        filter: grayscale(0%);
+        filter: grayscale(50%);
     }
 
     /* overlay for images. also contains the caption */
