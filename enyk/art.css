@@ -405,7 +405,7 @@
                     background: color-mix(in lab, var(--tag-background-color) 30%, var(--tag-background-color-dark));
                 }
             }
-        }*/
+        }
 
         .modal-content {
             color: var(--popup-text-dark);
@@ -413,7 +413,7 @@
             box-shadow: var(--popup-box-shadow-dark);
             border: var(--popup-border-dark);
         }
-    }
+    }*/
 
     /* if you set var(--image-justify) to flex-start or flex-end, this section will make sure the image gallery is centered on the page when the viewport is smaller than the --container-width + page padding. this means that justify-content basically only applies to the last row of images.
 
@@ -620,11 +620,11 @@
         text-align: center;
     }
 
-    @media (prefers-color-scheme: dark) {
+    /* @media (prefers-color-scheme: dark) {
 
         body,
         html {
             background-color: #333;
             color: white;
         }
-    }
+    }*/
