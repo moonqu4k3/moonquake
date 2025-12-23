@@ -83,7 +83,6 @@ li,a{
   background: floralwhite;
   margin-top: 5px;
   border-radius: 5px;
-  overflow: auto;
 }
 
 .center {
@@ -107,7 +106,6 @@ li,a{
   margin-top: 5px;
   border-radius: 5px;
   padding: 5px;
-  overflow-y: auto;
   overflow-x: hidden;
 }
 
