@@ -78,7 +78,7 @@ li,a{
 }
 
 .left {
-  width: 165px;
+  width: 170px;
   height: 513px;
   border: 2px groove lightgray;
   background: floralwhite;
@@ -101,14 +101,15 @@ li,a{
 }
 
 .right {
-  width: 165px;
+  width: 170px;
   height: 500px;
   border: 2px groove lightgray;
   background: floralwhite;
   margin-top: 5px;
   border-radius: 5px;
   padding: 5px;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .advert {
