@@ -467,23 +467,84 @@ p {
   height: 140px;
 }
 
+}
+.div-a {
+  max-width: 170px;
+  min-width:120px;
+  border-radius: 17px;
+  margin-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-shadow: -1px -1.4px 1px inset #9e9699, 2px 3px 1.5px inset white,
+    0px 0px 2px #aba4a6;
+  margin: auto;
+  background-image: url("/gallery/checks_a04s.gif");
+}
+.div-b {
+  color: #f7c9da;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: ms pgothic;
+  text-shadow: 2px 1px 1px #dd658b, 1px -2px 0 #dd658b, -1px 1px 0 #dd658b,
+    -1px -1px 0 #dd658b, 1px 0px 0 #dd658b, 0px 2px 0 #dd658b,
+    -2px 0px 0 #dd658b, 0px -2px 0 #dd658b, 2px 2px 2px rgba(221, 101, 139, 0);
+  filter: drop-shadow(1px 1px 1px white);
+  text-align: center;
+}
+::selection {
+    color: #ed6887;
+    background-color: #ffc4d2;
+}
 ::-webkit-scrollbar {
-    width: 6px;
-    }
-
-::-webkit-scrollbar-track {
-background-color: #f5e3d8;
--webkit-border-radius: 10px;
-border-radius: 10px;
-border: 1px solid #eeb999;
-}    
+  width: 15px;
+ height: 15px;
+}
 
 ::-webkit-scrollbar-thumb {
--webkit-border-radius: 10px;
-border-radius: 10px;
-background: #f5c6a9;
-border: 1px solid #ebafaf;
-}    
+    background-color: #fff;
+    background-image: url(https://proxy.everskies.com/a/https://i.imgur.com/Qtm9Z60.png);
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+ height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-top: 1px solid #bdbdbd;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-button {
+  background-color: darkgrey;
+}
+
+::-webkit-scrollbar-button:vertical:start {
+  background-position: -45px 0;
+}
+
+::-webkit-scrollbar-button:vertical:end {
+  background-position: 0 0;
+}
+
+::-webkit-scrollbar-button:horizontal:start {
+  background-position: -15px 0;
+}
+
+::-webkit-scrollbar-button:horizontal:end {
+  background-position: -30px 0;
+}
 
 footer {
     font-size: 14px;
