@@ -152,37 +152,44 @@ p {
   float: left;
   margin-right: 3px;
 }
+
 .float2 {
   float: right;
   margin-left: 3px;
 }
+
 .dashed {
   margin: auto;
   width: 100%;
   border: 1.5px dashed plum;
   height: auto;
 }
+
 .right .bar {
   background: mistyrose;
 }
+
 .right b{
   text-decoration: underline;
   color: plum;
 }
+
 .left .button a {
   text-decoration:   plum line-through;
 }
+
 .update-log {
   width: 90%;
   margin: auto;
   padding: 13px;
   height: 140px;
   border: 0px groove lightgray;
-  background-image:  url('https: //swirl.neocities.org/images/site/1.png');
+  background-image:  url('images/reviews checked.gif');
 }
+
 .content {
   width: 100%;
-  border: 2px dashed orange;
+  border: 2px dashed navajowhite;
   background: floralwhite ;
   height: 140px;
 }
