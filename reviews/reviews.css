@@ -78,7 +78,7 @@ li,a{
 
 .left {
   width: 170px;
-  height: 413px;
+  height: 513px;
   border: 2px groove lightgray;
   background: floralwhite;
   margin-top: 5px;
@@ -94,18 +94,19 @@ li,a{
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 5px;
-  overflow-y: auto;
+  overflow-y: visible;
   overflow-x: hidden;
 }
 
 .right {
   width: 170px;
-  height: 400px;
+  height: 500px;
   border: 2px groove lightgray;
   background: floralwhite;
   margin-top: 5px;
   border-radius: 5px;
   padding: 5px;
+  overflow-y: visible;
   overflow-x: hidden;
 }
 
