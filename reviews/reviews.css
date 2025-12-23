@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  cursor:  url("https: //swirl.neocities.org/gallery/sunflowercursor1.png"), auto;
   background-image:  url("images/reviews bg.gif");
   background-color: #fff;
   background-repeat:  repeat-y;
@@ -79,7 +78,7 @@ li,a{
 
 .left {
   width: 170px;
-  height: 513px;
+  height: 613px;
   border: 2px groove lightgray;
   background: floralwhite;
   margin-top: 5px;
@@ -102,7 +101,7 @@ li,a{
 
 .right {
   width: 170px;
-  height: 500px;
+  height: 600px;
   border: 2px groove lightgray;
   background: floralwhite;
   margin-top: 5px;
