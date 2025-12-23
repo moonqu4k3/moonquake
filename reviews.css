@@ -188,7 +188,7 @@ p {
   margin: auto;
   padding: 13px;
   height: 140px;
-  border: 0px groove lightgray;
+  /*border: 0px groove lightgray;*/
   background-image:  url('images/reviews checked.gif');
 }
 
