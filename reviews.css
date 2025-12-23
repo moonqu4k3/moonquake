@@ -1,11 +1,6 @@
 html {
-    font-family: 'MS UI Gothic', 'Georgia', 'Times New Roman', Times, serif;
-    font-size: 16px;
-    line-height: 130%;
-    letter-spacing: -0.2px;
-    /*background-image: url(/images/amano butterflies.jpg);*/
-    background-color: #1c1c1c;
-    background-blend-mode: lighten;    
+    font-family: 'MS UI Gothic', 'Georgia', 'Times New Roman', Times, serif;  
+    image-rendering: pixelated;
 }
 
 /*body {
@@ -229,168 +224,111 @@ footer {
 
 
 body {
-  background-image: url("images/reviews bg.gif");
-  background-color: #fff;
-  background-repeat: repeat-y;
-  font-family: 'MS UI Gothic';
+  cursor: url("https://swirl.neocities.org/gallery/sunflowercursor1.png"), auto;
+  background-image: url("https://i.imgur.com/FxFM4nJ.png");
+  background-color:#6DB263;
+  background-repeat: repeat-x;
+  font-family: ms ui gothic;
   color: #7a4843;
   letter-spacing: 0px;
-  font-size: 14px;
-  line-height: 14px;
-  image-rendering: pixelated;
+  font-size: 16px;
+  line-height:15.5px;
+  image-rendering:pixelated;
 }
 
-#reviews {
-  width: 800px;
-  border: 5px ridge black;
-  height: auto;
-  border-radius: 20px;
-  margin: auto;
-  background: #fff;
-  overflow: hidden;
-  margin-top: 50px;
-  padding-bottom: 16px;
-  margin-bottom: 5px;
+#GAME-LOG {
+  width:800px;
+  border:5px groove pink;
+  height:auto;
+  border-radius:20px;
+  margin:auto;
+  background:#ffdbe1;
+  overflow:hidden;
+  margin-top:50px;
+  padding-bottom:16px;
+  margin-bottom:5px;
 }
-
 .top-header{
-  background-image: url('images/ggundam banner.jpeg');
-  width: 800px;
-  height: 200px;
-  border-bottom: 3.5px ridge black;
+  background-image: url('https://swirl.neocities.org/images/site/gamelog-oop.png');
+  width:800px;
+  height:200px;
+  border-bottom:3.5px ridge pink;
 }
-
 .header {
-  width: 100%;
-  margin: 5px;
-  text-align: center;
-  padding: 3px;
+  width:100%;
+  margin:5px;
+  text-align:center;
+  padding:3px;
 }
-
-details {
-    padding: 0 2%; 
-}
-
-details p:first-of-type {
-    margin-top: 10px;
-}
-
-summary {
-    font-weight: bolder;
-    font-size: 17px;
-    color: #222222;
-    margin: 8px 0 ;
-}
-
-summary::marker {
-    content:'ᯓ★ '; 
-}
-
-[open] summary::marker {
-  content: "ᯓ☆ ";
-}
-
 ul {
   list-style-type: none; 
   padding: 3px;
   margin: 0;
 }
-
 .header ul,li {
-  display: inline;
+  display:inline;
 }
-
 li {
-  border: 3px outset lightgray;
-  background: lightgray;
-  padding: 3px;
+  border:3px outset #fff2bf;
+  background:#fff2bf;
+  padding:3px;
 }
-
 li:active {
-  border: 3px inset lightgray;
+  border:3px inset #fff2bf;
 }
-
 li,a{
-  color: blue;
-  text-decoration: none;
+  color:blue;
+  text-decoration:none;
 }
-
-code {
-    font-size: 13px;
-    padding: 5px;
-    margin-bottom: 60px;
-    background-color: #f5f5f5;
-    border:2px solid #1c1c1c;
-}
-
-.spoiler {
-  background: black;
-  color: black;
-  cursor: help;
-  transition: background 0.6s ease 0.3s, color 0.3s ease 0.35s;
-}
-
-.spoiler:hover,
-.spoiler:focus {
-    color: rgb(0, 0, 0);
-    background: none;
-}
-
 #section {
-  width: 900px;
+  width:800px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   margin: auto;
   justify-content: center;
 }
-
 .left {
-  width: 145px;
-  height: 513px;
-  border: 2px groove gray;
-  background: floralwhite;
+  width:145px;
+  height:513px;
+  border:2px groove lightgray;
+  background:#fffae8;
   margin-top:5px;
   border-radius:5px;
 }
-
 .center {
-  width: 450px;
-  height: 390px;
-  border: 2px groove lightgray;
-  background: floralwhite;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-radius: 5px;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.right {
-  width: 145px;
-  height: 500px;
+  width:450px;
+  height:390px;
   border:2px groove lightgray;
-  background: floralwhite;
-  margin-top: 5px;
-  border-radius: 5px;
-  padding: 5px;
-  overflow: hidden;
+  background:#fffae8;
+  margin-top:5px;
+  margin-left:5px;
+  margin-right:5px;
+  border-radius:5px;
+  overflow-y:auto;
+  overflow-x:hidden;
 }
-
+.right {
+  width:145px;
+  height:500px;
+  border:2px groove lightgray;
+  background:#fffae8;
+  margin-top:5px;
+  border-radius:5px;
+  padding:5px;
+  overflow:hidden;
+}
 .advert {
-  margin: 5px;
-  margin-top: 0px;
+  margin:5px;
+  margin-top:0px;
 }
-
 p {
-  margin: 0px;
-  padding: 5px;
-  padding-left: 7px;
+  margin:0px;
+  padding:5px;
+  padding-left:7px;
 }
-
 .bar {
-  background-color: lavender;
+  background-color: #b5dfff;
   padding: 4px;
   width: 100%;
   border-top: 1px dotted #666666;
@@ -400,72 +338,62 @@ p {
   padding-bottom: 2px;
   margin-bottom: -10px;
 }
-
 .left .bar{
-  background: aliceblue;
+  background:lightgreen;
 }
-
 .left li {
   width:140px;
 }
-
 #navigation {
   width:140px;
 }
-
 .button {
-  width: 130px;
-  border: 3px outset lightgray;
-  background: lightgray;
-  padding: 3px;
+  width:130px;
+  border:3px outset #fff2bf;
+  background:#fff2bf;
+  padding:3px;
 }
-
 .float1 {
-  float: left;
-  margin-right: 3px;
+  float:left;
+  margin-right:3px;
 }
-
 .float2 {
-  float: right;
-  margin-left: 3px;
+  float:right;
+  margin-left:3px;
 }
-
 .dashed {
-  margin: auto;
-  width: 103%;
-  border: 1.5px dashed hotpink;
-  height: 93%;
+  margin:auto;
+  width:103%;
+  border:1.5px dashed hotpink;
+  height:93%;
 }
-
 .right .bar {
-  background: lightpink;
+  background:lightpink;
 }
-
 .right b{
-  text-decoration: underline;
-  color: hotpink;
+  text-decoration:underline;
+  color:hotpink;
 }
-
 .left .button a {
   text-decoration:  hotpink line-through;
 }
-
 .update-log {
-  width: 90%;
-  margin: auto;
-  padding: 13px;
-  height: 140px;
-  border: 0px groove lightgray;
+  width:90%;
+  margin:auto;
+  padding:13px;
+  height:140px;
+  border:0px groove lightgray;
   background-image: url('https://swirl.neocities.org/images/site/1.png');
 }
-
 .content {
-  width: 100%;
-  border: 2px dashed orange;
-  background: #fffae8;
-  height: 140px;
+  width:100%;
+  border:2px dashed orange;
+  background:#fffae8;
+  height:140px;
 }
 
+a:hover {
+    cursor: url("https://swirl.neocities.org/gallery/sunflowercursor2.png"), auto;
 }
 .div-a {
   max-width: 170px;
@@ -515,6 +443,7 @@ p {
 
 ::-webkit-scrollbar-thumb {
     background-color: #fff;
+    background-image: url(https://swirl.neocities.org/gallery/scrollbar/scrollbar3.png);
     border-top: 1px solid #bdbdbd;
     border-left: 1px solid #bdbdbd;
     border-right: 1px solid black;
@@ -523,12 +452,13 @@ p {
 
 ::-webkit-scrollbar-track {
     background-color: #fff;
+    background-image: url(https://swirl.neocities.org/gallery/scrollbar/scrollbar2.png);
 }
 
 ::-webkit-scrollbar-button {
   background-color: darkgrey;
+  background-image: url('https://swirl.neocities.org/gallery/scrollbar/scrollbar1.png')
 }
-
 ::-webkit-scrollbar-button:vertical:start {
   background-position: -45px 0;
 }
@@ -540,7 +470,6 @@ p {
 ::-webkit-scrollbar-button:horizontal:start {
   background-position: -15px 0;
 }
-
 ::-webkit-scrollbar-button:horizontal:end {
   background-position: -30px 0;
 }
@@ -548,5 +477,5 @@ p {
 footer {
     font-size: 14px;
     text-align: center;
-    color: white;
+    color: black;
 }
