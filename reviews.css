@@ -54,8 +54,8 @@ ul {
 }
 
 li {
-  border: 3px outset lightgray;
-  background: lightgray;
+  border: 3px outset whitesmoke;
+  background: whitesmoke;
   padding: 3px;
 }
 
@@ -70,11 +70,11 @@ li,a{
 
 #section {
   width: 900px;
-  display:  flex;
-  flex-wrap:  wrap;
-  align-content:  center;
-  margin:  auto;
-  justify-content:  center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+  justify-content: center;
 }
 
 .left {
