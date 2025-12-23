@@ -226,30 +226,30 @@ footer {
 body {
   cursor:  url("https: //swirl.neocities.org/gallery/sunflowercursor1.png"), auto;
   background-image:  url("https: //i.imgur.com/FxFM4nJ.png");
-  background-color: #6DB263;
-  background-repeat:  repeat-x;
+  background-color: #fff;
+  background-repeat:  repeat-y;
   font-family:  ms ui gothic;
-  color:  #7a4843;
+  color:  #000;
   letter-spacing:  0px;
   font-size:  16px;
   line-height: 15.5px;
   image-rendering: pixelated;
 }
 
-#GAME-LOG {
+#reviews {
   width: 900px;
   border: 5px ridge gray;
   height: auto;
   border-radius: 20px;
   margin: auto;
-  background: #ffdbe1;
+  background: lavenderblush;
   overflow: hidden;
   margin-top: 50px;
   padding-bottom: 16px;
   margin-bottom: 5px;
 }
 .top-header{
-  background-image:  url('https: //swirl.neocities.org/images/site/gamelog-oop.png');
+  background-image:  url('images/ggundam banner.jpeg');
   width: 800px;
   height: 200px;
   border-bottom: 3.5px ridge gray;
