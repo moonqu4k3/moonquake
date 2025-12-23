@@ -1,5 +1,5 @@
 html {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-family: 'MS UI Gothic', 'Georgia', 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 130%;
     letter-spacing: -0.2px;
@@ -8,7 +8,7 @@ html {
     background-blend-mode: lighten;    
 }
 
-body {
+/*body {
     width: 900px;
     height: auto;
     margin: auto;
@@ -220,6 +220,270 @@ details {
     block-size: auto;
   }
 }
+
+footer {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}*/
+
+
+body {
+  background-image: url("images/reviews bg.gif");
+  background-color: #fff;
+  background-repeat: repeat-x;
+  font-family: 'MS UI Gothic';
+  color: #7a4843;
+  letter-spacing: 0px;
+  font-size: 14px;
+  line-height: 14px;
+  image-rendering: pixelated;
+}
+
+#reviews {
+  width: 800px;
+  border: 5px ridge black;
+  height: auto;
+  border-radius: 20px;
+  margin: auto;
+  background: #fff;
+  overflow: hidden;
+  margin-top: 50px;
+  padding-bottom: 16px;
+  margin-bottom: 5px;
+}
+
+.top-header{
+  background-image: url('images/ggundam banner.jpeg');
+  width: 800px;
+  height: 200px;
+  border-bottom: 3.5px ridge black;
+}
+
+.header {
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  padding: 3px;
+}
+
+details {
+    padding: 0 2%; 
+}
+
+details p:first-of-type {
+    margin-top: 10px;
+}
+
+summary {
+    font-weight: bolder;
+    font-size: 17px;
+    color: #222222;
+
+    margin: 8px 0 ;
+}
+
+summary::marker {
+    content:'ᯓ★ '; 
+}
+
+[open] summary::marker {
+  content: "ᯓ☆ ";
+}
+
+ul {
+  list-style-type: none; 
+  padding: 3px;
+  margin: 0;
+}
+
+.header ul,li {
+  display: inline;
+}
+
+li {
+  border: 3px outset lightgray;
+  background: lightgray;
+  padding: 3px;
+}
+
+li:active {
+  border: 3px inset lightgray;
+}
+
+li,a{
+  color: blue;
+  text-decoration: none;
+}
+
+code {
+    font-size: 13px;
+    padding: 5px;
+    margin-bottom: 60px;
+    background-color: #f5f5f5;
+    border:2px solid #1c1c1c;
+}
+
+.spoiler {
+  background: black;
+  color: black;
+  cursor: help;
+  transition: background 0.6s ease 0.3s, color 0.3s ease 0.35s;
+}
+
+.spoiler:hover,
+.spoiler:focus {
+    color: rgb(0, 0, 0);
+    background: none;
+}
+
+#section {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.left {
+  width: 145px;
+  height: 513px;
+  border: 2px groove gray;
+  background: floralwhite;
+  margin-top:5px;
+  border-radius:5px;
+}
+
+.center {
+  width: 450px;
+  height: 390px;
+  border: 2px groove lightgray;
+  background: floralwhite;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.right {
+  width: 145px;
+  height: 500px;
+  border:2px groove lightgray;
+  background: floralwhite;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.advert {
+  margin: 5px;
+  margin-top: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 5px;
+  padding-left: 7px;
+}
+
+.bar {
+  background-color: lavender;
+  padding: 4px;
+  width: 100%;
+  border-top: 1px dotted #666666;
+  border-bottom: 1px dotted #666666;
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 2px;
+  margin-bottom: -10px;
+}
+
+.left .bar{
+  background: aliceblue;
+}
+
+.left li {
+  width:140px;
+}
+
+#navigation {
+  width:140px;
+}
+
+.button {
+  width: 130px;
+  border: 3px outset lightgray;
+  background: lightgray;
+  padding: 3px;
+}
+
+.float1 {
+  float: left;
+  margin-right: 3px;
+}
+
+.float2 {
+  float: right;
+  margin-left: 3px;
+}
+
+.dashed {
+  margin: auto;
+  width: 103%;
+  border: 1.5px dashed hotpink;
+  height: 93%;
+}
+
+.right .bar {
+  background: lightpink;
+}
+
+.right b{
+  text-decoration: underline;
+  color: hotpink;
+}
+
+.left .button a {
+  text-decoration:  hotpink line-through;
+}
+
+.update-log {
+  width: 90%;
+  margin: auto;
+  padding: 13px;
+  height: 140px;
+  border: 0px groove lightgray;
+  background-image: url('https://swirl.neocities.org/images/site/1.png');
+}
+
+.content {
+  width: 100%;
+  border: 2px dashed orange;
+  background: #fffae8;
+  height: 140px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    }
+
+::-webkit-scrollbar-track {
+background-color: #f5e3d8;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+border: 1px solid #eeb999;
+}    
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background: #f5c6a9;
+border: 1px solid #ebafaf;
+}    
 
 footer {
     font-size: 14px;
