@@ -279,7 +279,6 @@ summary {
     font-weight: bolder;
     font-size: 17px;
     color: #222222;
-
     margin: 8px 0 ;
 }
 
@@ -338,7 +337,7 @@ code {
 }
 
 #section {
-  width: 800px;
+  width: 900px;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
