@@ -133,6 +133,8 @@ p {
   font-weight: 600;
   padding-bottom: 2px;
   margin-bottom: 0px;
+  position: sticky;
+  top: 0;
 }
 
 .left .bar{
