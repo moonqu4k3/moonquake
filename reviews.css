@@ -17,7 +17,7 @@ body {
 }
 
 #reviews {
-  width: 800px;
+  width: 900px;
   border: 5px ridge gray;
   height: auto;
   border-radius: 20px;
@@ -31,7 +31,7 @@ body {
 
 .top-header{
   background-image:  url('https: //swirl.neocities.org/images/site/gamelog-oop.png');
-  width: 800px;
+  width: 900px;
   height: 200px;
   border-bottom: 3.5px ridge pink;
 }
@@ -69,7 +69,7 @@ li,a{
 }
 
 #section {
-  width: 800px;
+  width: 900px;
   display:  flex;
   flex-wrap:  wrap;
   align-content:  center;
@@ -78,7 +78,7 @@ li,a{
 }
 
 .left {
-  width: 145px;
+  width: 165px;
   height: 513px;
   border: 2px groove lightgray;
   background: floralwhite;
@@ -87,7 +87,7 @@ li,a{
 }
 
 .center {
-  width: 450px;
+  width: 500px;
   height: 390px;
   border: 2px groove lightgray;
   background: floralwhite;
@@ -100,7 +100,7 @@ li,a{
 }
 
 .right {
-  width: 145px;
+  width: 165px;
   height: 500px;
   border: 2px groove lightgray;
   background: floralwhite;
