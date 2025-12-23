@@ -84,7 +84,6 @@ li,a{
   background: floralwhite;
   margin-top: 5px;
   border-radius: 5px;
-  padding: 5px;
   overflow: auto;
 }
 
@@ -161,7 +160,7 @@ p {
   margin: auto;
   width: 100%;
   border: 1.5px dashed plum;
-  height: 93%;
+  height: auto;
 }
 .right .bar {
   background: mistyrose;
