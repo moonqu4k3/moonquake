@@ -133,21 +133,26 @@ p {
   padding-bottom: 2px;
   margin-bottom: 0px;
 }
+
 .left .bar{
   background: honeydew;
 }
+
 .left li {
   width: 140px;
 }
+
 #navigation {
   width: 140px;
 }
+
 .button {
   width: 150px;
   border: 3px outset whitesmoke;
   background: whitesmoke;
   padding: 3px;
 }
+
 .float1 {
   float: left;
   margin-right: 3px;
@@ -197,6 +202,7 @@ p {
 a: hover {
     cursor:  url("https: //swirl.neocities.org/gallery/sunflowercursor2.png"), auto;
 }
+
 .div-a {
   max-width:  170px;
   min-width: 120px;
@@ -209,6 +215,7 @@ a: hover {
   margin:  auto;
   background-image:  url("/gallery/checks_a04s.gif");
 }
+
 .div-b {
   color:  #f7c9da;
   font-size:  20px;
@@ -220,10 +227,12 @@ a: hover {
   filter:  drop-shadow(1px 1px 1px white);
   text-align:  center;
 }
+
 ::selection {
     color:  #ed6887;
     background-color:  #ffc4d2;
 }
+
 ::-webkit-scrollbar {
   width:  15px;
  height:  15px;
