@@ -192,7 +192,7 @@ p {
   padding: 13px;
   height: 140px;
   /*border: 0px groove lightgray;*/
-  background-image:  url('images/reviews checked.gif');
+  background-image:  url('/images/reviews checked.gif');
 }
 
 .content {
@@ -200,10 +200,6 @@ p {
   border: 2px dashed navajowhite;
   background: floralwhite ;
   height: 140px;
-}
-
-a: hover {
-    cursor:  url("https: //swirl.neocities.org/gallery/sunflowercursor2.png"), auto;
 }
 
 .div-a {
