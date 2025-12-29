@@ -1,0 +1,296 @@
+html {
+    font-family:  'MS UI Gothic', 'Georgia', 'Times New Roman', Times, serif;  
+    image-rendering:  pixelated;
+}
+
+body {
+  background-image:  url("images/reviews bg.gif");
+  background-color: #fff;
+  background-repeat:  repeat-y;
+  font-family:  ms ui gothic;
+  color:  #1b1526;
+  letter-spacing:  0px;
+  font-size:  16px;
+  line-height: 15.5px;
+  image-rendering: pixelated;
+}
+
+#reviews {
+  width: 900px;
+  border: 5px ridge gray;
+  height: auto;
+  border-radius: 20px;
+  margin: auto;
+  background: lavenderblush ;
+  overflow: hidden;
+  margin-top: 50px;
+  padding-bottom: 16px;
+  margin-bottom: 5px;
+}
+
+.top-header{
+  background-image:  url('images/ggundam banner.jpeg');
+  width: 900px;
+  height: 200px;
+  border-bottom: 3.5px ridge pink;
+}
+
+.header {
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  padding: 3px;
+}
+
+ul {
+  list-style-type:  none; 
+  padding:  3px;
+  margin:  0;
+}
+
+.header ul,li {
+  display: inline;
+}
+
+li {
+  border: 3px outset whitesmoke;
+  background: whitesmoke;
+  padding: 3px;
+}
+
+li: active {
+  border: 3px inset lightgray;
+}
+
+li,a{
+  color: blue;
+  text-decoration: none;
+}
+
+#section {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.left {
+  width: 170px;
+  height: 513px;
+  border: 2px groove lightgray;
+  background: floralwhite;
+  margin-top: 5px;
+  border-radius: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.center {
+  width: 600px;
+  min-height: 500px;
+  max-height: 2500px;
+  border: 2px groove lightgray;
+  background: floralwhite;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.right {
+  width: 170px;
+  height: 500px;
+  border: 2px groove lightgray;
+  background: floralwhite;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.advert {
+  margin: 5px;
+  margin-top: 0px;
+}
+
+p {
+  margin: 0px;
+  padding: 5px;
+  padding-left: 7px;
+}
+
+.bar {
+  background-color: lavender;
+  padding: 4px 0px 4px 0px;
+  width: 100%;
+  border-top: 1px dotted #666666;
+  border-bottom: 1px dotted #666666;
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 2px;
+  margin-bottom: 0px;
+  position: sticky;
+  top: 0;
+}
+
+.left .bar{
+  background: honeydew;
+}
+
+.left li {
+  width: 140px;
+}
+
+#navigation {
+  width: 140px;
+}
+
+.button {
+  width: 155px;
+  border: 3px outset whitesmoke;
+  background: whitesmoke;
+  padding: 3px;
+}
+
+.float1 {
+  float: left;
+  margin-right: 3px;
+}
+
+.float2 {
+  float: right;
+  margin-left: 3px;
+}
+
+.dashed {
+  margin: auto;
+  width: 100%;
+  border: 1.5px dashed plum;
+  height: auto;
+}
+
+.right .bar {
+  background: mistyrose;
+}
+
+.right b{
+  text-decoration: underline;
+  color: plum;
+}
+
+.left .button a {
+  text-decoration:   plum line-through;
+}
+
+.update-log {
+  width: 90%;
+  margin: auto;
+  padding: 13px;
+  height: 140px;
+  /*border: 0px groove lightgray;*/
+  background-image:  url('images/reviews checked.gif');
+}
+
+.content {
+  width: 100%;
+  border: 2px dashed navajowhite;
+  background: floralwhite ;
+  height: 140px;
+}
+
+a: hover {
+    cursor:  url("https: //swirl.neocities.org/gallery/sunflowercursor2.png"), auto;
+}
+
+.div-a {
+  max-width:  170px;
+  min-width: 120px;
+  border-radius:  17px;
+  margin-bottom:  5px;
+  padding-top:  7px;
+  padding-bottom:  7px;
+  box-shadow:  -1px -1.4px 1px inset #9e9699, 2px 3px 1.5px inset white,
+    0px 0px 2px #aba4a6;
+  margin:  auto;
+  background-image:  url("/gallery/checks_a04s.gif");
+}
+
+.div-b {
+  color:  #f7c9da;
+  font-size:  20px;
+  font-weight:  bold;
+  font-family:  ms pgothic;
+  text-shadow:  2px 1px 1px #dd658b, 1px -2px 0 #dd658b, -1px 1px 0 #dd658b,
+    -1px -1px 0 #dd658b, 1px 0px 0 #dd658b, 0px 2px 0 #dd658b,
+    -2px 0px 0 #dd658b, 0px -2px 0 #dd658b, 2px 2px 2px rgba(221, 101, 139, 0);
+  filter:  drop-shadow(1px 1px 1px white);
+  text-align:  center;
+}
+
+::selection {
+    color:  #ed6887;
+    background-color:  #ffc4d2;
+}
+
+::-webkit-scrollbar {
+  width:  15px;
+ height:  15px;
+}
+
+:: -webkit-scrollbar-thumb {
+    background-color:  #fff;
+    background-image:  url(https: //proxy.everskies.com/a/https: //i.imgur.com/Qtm9Z60.png);
+    border-top:  1px solid #bdbdbd;
+    border-left:  1px solid #bdbdbd;
+    border-right:  1px solid black;
+    border-bottom:  1px solid black;
+}
+
+::-webkit-scrollbar {
+  width:  15px;
+ height:  15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color:  #fff;
+    background-image:  url(https: //swirl.neocities.org/gallery/scrollbar/scrollbar3.png);
+    border-top:  1px solid #bdbdbd;
+    border-left:  1px solid #bdbdbd;
+    border-right:  1px solid black;
+    border-bottom:  1px solid black;
+}
+
+::-webkit-scrollbar-track {
+    background-color:  #fff;
+    background-image:  url(https: //swirl.neocities.org/gallery/scrollbar/scrollbar2.png);
+}
+
+::-webkit-scrollbar-button {
+  background-color:  darkgrey;
+  background-image:  url('https: //swirl.neocities.org/gallery/scrollbar/scrollbar1.png')
+}
+::-webkit-scrollbar-button: vertical: start {
+  background-position:  -45px 0;
+}
+
+::-webkit-scrollbar-button: vertical: end {
+  background-position:  0 0;
+}
+
+::-webkit-scrollbar-button: horizontal: start {
+  background-position:  -15px 0;
+}
+::-webkit-scrollbar-button: horizontal: end {
+  background-position:  -30px 0;
+}
+
+footer {
+    font-size:  14px;
+    text-align:  center;
+    color:  black;
+}
