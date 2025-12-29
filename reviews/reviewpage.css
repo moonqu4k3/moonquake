@@ -88,9 +88,8 @@ li,a{
 }
 
 .center {
-  width: 600px;
-  min-height: 500px;
-  max-height: 2500px;
+  width: 700px;
+  height: 500px;
   border: 2px groove lightgray;
   background: floralwhite;
   margin-top: 5px;
@@ -98,18 +97,6 @@ li,a{
   margin-right: 5px;
   border-radius: 5px;
   overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.right {
-  width: 170px;
-  height: 500px;
-  border: 2px groove lightgray;
-  background: floralwhite;
-  margin-top: 5px;
-  border-radius: 5px;
-  padding: 5px;
-  overflow-y: visible;
   overflow-x: hidden;
 }
 
