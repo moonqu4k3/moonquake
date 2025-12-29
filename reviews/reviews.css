@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image:  url("images/reviews bg.gif");
+  background-image:  url('/images/reviews bg.gif');
   background-color: #fff;
   background-repeat:  repeat-y;
   font-family:  ms ui gothic;
@@ -29,7 +29,7 @@ body {
 }
 
 .top-header{
-  background-image:  url('images/ggundam banner.jpeg');
+  background-image:  url('/images/ggundam banner.jpeg');
   width: 900px;
   height: 200px;
   border-bottom: 3.5px ridge pink;
