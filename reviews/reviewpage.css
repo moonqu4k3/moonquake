@@ -1,6 +1,6 @@
 html {
-    font-family:  'MS UI Gothic', 'Georgia', 'Times New Roman', Times, serif;  
-    image-rendering:  pixelated;
+    font-family: 'MS UI Gothic', 'Georgia', 'Times New Roman', Times, serif;  
+    image-rendering: pixelated;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   font-family: ms ui gothic;
   color: #1b1526;
   letter-spacing: 0px;
-  font-size:  16px;
+  font-size: 16px;
   line-height: 15.5px;
   image-rendering: pixelated;
 }
