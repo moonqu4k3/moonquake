@@ -192,13 +192,13 @@ p {
   padding: 13px;
   height: 140px;
   /*border: 0px groove lightgray;*/
-  background-image:  url('/images/reviews checked.gif');
+  background-image: url('/images/reviews checked.gif');
 }
 
 .content {
   width: 100%;
   border: 2px dashed navajowhite;
-  background: floralwhite ;
+  background: white;
   height: 140px;
 }
 
