@@ -196,7 +196,7 @@ background: transparent;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 740;
+  width: 740px;
   margin: 0px; 
   padding: 0px;
   justify-content: space-around;
@@ -204,7 +204,7 @@ background: transparent;
 
 blockquote {
     width: 35%;
-    height: 30%;
+    height: 100%;
     margin: 5px 5px 10px 5px;
     white-space: pre-line;
 }
