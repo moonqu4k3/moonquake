@@ -198,6 +198,9 @@ background: transparent;
 }
 
 .lyricsbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 750px;
   background-color:#FFFFFF; 
   height: 200px;
