@@ -59,21 +59,21 @@ textarea {
 blockquote {
     width: 30%;
     height: 100%;
-    margin: 2%;
+    margin: 1%;
     white-space: pre-line;
 }
 
 blockquote > p {
     font: bolder 12px arial, monospace;
     text-decoration: underline; 
-    text-transform:uppercase;
-    color:#666;
+    text-transform: uppercase;
+    color: #666;
     line-height: 14px;
-    padding:1px;
-    padding-bottom:1px;
-    padding-left:0px;
-    margin-bottom:4px;
-    letter-spacing:2px;
+    padding: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    margin-bottom: 4px;
+    letter-spacing: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -205,8 +205,7 @@ background: transparent;
   background-color:#FFFFFF; 
   height: 200px;
   margin:0px 0px 15px 0; 
-  padding:5px; 
-  padding-left:8px; 
+  padding: 5px;  
   border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
