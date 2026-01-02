@@ -180,7 +180,7 @@ background: transparent;
 
 .lyricsbox {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 750px;
   background-color:#FFFFFF; 
@@ -195,7 +195,7 @@ background: transparent;
 
 .lyrics {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 700px;
   height: auto;
