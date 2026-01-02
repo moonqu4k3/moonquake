@@ -90,14 +90,14 @@ background: transparent;
   
 
 #layout {
-  width:700px;
+  width:750px;
   text-align:left;
   margin:auto;
 }
 
 #navigation {
   float:left;
-  width:700px;
+  width:750px;
   vertical-align:top;
   padding:10px 2px 4px 4px;
 }
@@ -131,7 +131,7 @@ background: transparent;
   height: 200px;
   width: 700px;
   border:1px solid #333333;
-  background: url("enyk/images/enyk song header.jpeg");
+  background: url("/images/enyk song header.jpeg");
   background-repeat:no-repeat;
   border:1px solid mistyrose;
   margin:0px 0px 10px 0;
@@ -201,7 +201,7 @@ background: transparent;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 700px;
+  width: 750px;
   background-color:#FFFFFF; 
   height: 200px;
   margin:0px 0px 15px 0; 
@@ -210,6 +210,7 @@ background: transparent;
   border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
+  justify-content: space-around;
 }
   
 #sidebar {
