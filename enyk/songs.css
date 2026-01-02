@@ -186,7 +186,7 @@ background: transparent;
   height: 300px;
   margin: 0px; 
   padding: 0px;
-  border:1px solid mistyrose;
+  border: 1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
   justify-content: space-around;
@@ -199,7 +199,7 @@ background: transparent;
   width: 700px;
   margin: 0px; 
   padding: 0px;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 blockquote {
