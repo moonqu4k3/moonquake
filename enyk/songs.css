@@ -11,10 +11,10 @@ html {
 body {
   background: url("/images/enyk bg.gif"); 
   color: #777;
-  font:10px;
-  letter-spacing:1px;
-  margin:0px; 
-  padding:0px 0px 5px 0px;
+  font: 10px;
+  letter-spacing: 1px;
+  margin: 0px; 
+  padding: 0px 0px 5px 0px;
 }
     
 .title {
@@ -180,7 +180,7 @@ background: transparent;
 }
 
 .lyricsbox {
-  width: 750px;
+  width: 700px;
   background-color:#FFFFFF; 
   height: 300px;
   margin: 0px;
