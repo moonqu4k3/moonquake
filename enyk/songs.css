@@ -183,8 +183,8 @@ background: transparent;
   width: 750px;
   background-color:#FFFFFF; 
   height: 300px;
-  margin: 5px;
-  padding: 5px;
+  margin: 0px;
+  padding: 0px;
   border: 1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
@@ -202,7 +202,7 @@ background: transparent;
 }
 
 blockquote {
-    width: 28%;
+    width: 30%;
     height: 100%;
     margin: 0px;
     margin-right: 5px;
