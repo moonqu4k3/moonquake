@@ -48,6 +48,7 @@ b {
     
 i {
     font-style: italic;
+    color: #999;
 }
     
 textarea {
@@ -206,7 +207,8 @@ background: transparent;
 blockquote {
     width: 30%;
     height: 100%;
-    margin: 5px 5px 10px 0px;
+    margin: 5px;
+    margin-bottom: 1em;
     white-space: pre-line;
 }
 
