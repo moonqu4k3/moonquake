@@ -198,7 +198,7 @@ background: transparent;
   width: 700px;
   margin: 0px; 
   padding: 0px;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 blockquote {
@@ -241,7 +241,8 @@ blockquote > p {
 
 #footer {
   clear:both;
-  text-align:center;}
+  text-align:center;
+}
 
 #credits {
   margin:auto;
@@ -249,4 +250,3 @@ blockquote > p {
   height:30px;
   width:600px;
 }
-  
