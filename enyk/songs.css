@@ -64,11 +64,17 @@ blockquote {
 }
 
 blockquote > p {
-    margin: 3%;
-    padding: 0;
-    font-weight: bolder;
-    font-size: 14px;
+    font: bolder 12px arial, monospace;
     text-decoration: underline; 
+    text-transform:uppercase;
+    color:#666;
+    line-height:10px;
+    padding:1px;
+    padding-bottom:1px;
+    padding-left:0px;
+    border-bottom:1px solid #ddd;
+    margin-bottom:4px;
+    letter-spacing:2px;
 }
 
 ::-webkit-scrollbar-thumb {
