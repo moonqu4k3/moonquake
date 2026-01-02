@@ -178,9 +178,6 @@ background: transparent;
 }
 
 .lyricsbox {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   width: 750px;
   background-color:#FFFFFF; 
   height: 300px;
@@ -189,6 +186,14 @@ background: transparent;
   border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
+}
+
+.lyrics {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px; 
+  padding: 0px;
   justify-content: space-around;
 }
 
