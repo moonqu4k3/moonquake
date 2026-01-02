@@ -189,6 +189,7 @@ background: transparent;
   border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
+  justify-content: space-around;
 }
 
 .lyrics {
