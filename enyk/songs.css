@@ -179,18 +179,15 @@ background: transparent;
 }
 
 .lyricsbox {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   width: 750px;
   background-color:#FFFFFF; 
   height: 300px;
-  margin: 0px; 
-  padding: 0px;
+  margin: 0.5%;
+  padding: 10px;
   border: 1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
-  justify-content: space-around;
+  align-content: center;
 }
 
 .lyrics {
@@ -198,7 +195,6 @@ background: transparent;
   flex-direction: row;
   flex-wrap: wrap;
   width: 700px;
-  height: auto;
   margin: 0px; 
   padding: 0px;
   justify-content: space-evenly;
