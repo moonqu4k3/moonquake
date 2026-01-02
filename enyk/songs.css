@@ -196,6 +196,7 @@ background: transparent;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 740;
   margin: 0px; 
   padding: 0px;
   justify-content: space-around;
