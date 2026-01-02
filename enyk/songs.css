@@ -208,7 +208,7 @@ blockquote {
 }
 
 blockquote > p {
-    font: bolder 12px arial, monospace;
+    font: bolder 11px arial, monospace;
     text-decoration: underline; 
     text-transform: uppercase;
     color: #666;
