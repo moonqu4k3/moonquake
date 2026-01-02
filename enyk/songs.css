@@ -193,9 +193,9 @@ background: transparent;
 }
 
 blockquote {
-    width: 26%;
+    width: 27%;
     height: 100%;
-    margin: 5px 5px 10px 0px;
+    margin: 5px 5px 10px 5px;
     white-space: pre-line;
 }
 
