@@ -56,26 +56,6 @@ textarea {
     color:#888;
 }
 
-blockquote {
-    width: 25%;
-    height: 100%;
-    margin: 0px 10px 0px 10px;
-    white-space: pre-line;
-}
-
-blockquote > p {
-    font: bolder 12px arial, monospace;
-    text-decoration: underline; 
-    text-transform: uppercase;
-    color: #666;
-    line-height: 14px;
-    padding: 1px;
-    padding-bottom: 1px;
-    padding-left: 0px;
-    margin-bottom: 4px;
-    letter-spacing: 2px;
-}
-
 ::-webkit-scrollbar-thumb {
 background-color: #fff;  
 border-radius: 0px;
@@ -205,11 +185,31 @@ background: transparent;
   background-color:#FFFFFF; 
   height: 300px;
   margin:0px 0px 15px 0; 
-  padding: 5px;  
+  padding: 0px 5px 0px 0px;  
   border:1px solid mistyrose;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
   justify-content: space-around;
+}
+
+blockquote {
+    width: 25%;
+    height: 100%;
+    margin: 0px 10px 0px 10px;
+    white-space: pre-line;
+}
+
+blockquote > p {
+    font: bolder 12px arial, monospace;
+    text-decoration: underline; 
+    text-transform: uppercase;
+    color: #666;
+    line-height: 14px;
+    padding: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    margin-bottom: 4px;
+    letter-spacing: 2px;
 }
   
 #sidebar {
