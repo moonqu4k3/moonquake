@@ -202,7 +202,7 @@ background: transparent;
 
 blockquote {
     width: 30%;
-    height: auto;
+    height: 100%;
     margin: 5px 5px 10px 5px;
     white-space: pre-line;
 }
