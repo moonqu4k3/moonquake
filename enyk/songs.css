@@ -196,7 +196,7 @@ background: transparent;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 0px; 
+  margin: auto; 
   padding: 0px;
   justify-content: space-around;
 }
