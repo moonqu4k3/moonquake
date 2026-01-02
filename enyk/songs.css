@@ -43,10 +43,11 @@ a:hover {
 }    
   
 b {
+    font-style: bold;
 }
     
 i {
-    font-style:italic;
+    font-style: italic;
 }
     
 textarea {
