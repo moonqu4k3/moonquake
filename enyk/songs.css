@@ -193,7 +193,7 @@ background: transparent;
 
 .lyrics {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 0px; 
   padding: 0px;
