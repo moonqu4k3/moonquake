@@ -97,7 +97,7 @@ background: transparent;
 
 #navigation {
   float:left;
-  width:430px;
+  width:750px;
   vertical-align:top;
   padding:10px 2px 4px 4px;
 }
@@ -129,7 +129,7 @@ background: transparent;
  
 #header {
   height: 200px;
-  width: 700px;
+  width: 750px;
   border:1px solid #333333;
   background: url("/images/enyk song header.jpeg");
   background-repeat:no-repeat;
