@@ -135,6 +135,7 @@ background: transparent;
 
 #smallbox {
     clear: both;
+    display: flex;
 }
 
 .box1 {
