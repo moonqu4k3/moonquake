@@ -185,6 +185,8 @@ background: transparent;
 .galleryimg {
   width: 30%;
   height: auto;
+  margin: 5px;
+  padding: 0px;
 }
 
 #sidebar {
