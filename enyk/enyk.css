@@ -173,7 +173,20 @@ background: transparent;
   box-shadow: 5px 6px lavenderblush;
   overflow-y: auto;
 } 
-  
+
+.gallerybox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0px; 
+    padding: 0px;
+}
+
+.galleryimg {
+  width: 50%;
+  height: auto;
+}
+
 #sidebar {
   width:175px; 
   float:right; 
