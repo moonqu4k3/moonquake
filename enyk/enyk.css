@@ -177,7 +177,7 @@ background: transparent;
 .gallerybox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     margin: 0px; 
     padding: 0px;
 }
@@ -185,6 +185,8 @@ background: transparent;
 .galleryimg {
   width: 50%;
   height: auto;
+  margin: 2px;
+  padding: 0px;
 }
 
 #sidebar {
