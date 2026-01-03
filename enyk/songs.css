@@ -74,7 +74,7 @@ background: transparent;
 #layout {
   width: 750px;
   text-align: left;
-  margin: 10px;
+  margin: auto;
 }
 
 #navigation {
@@ -111,7 +111,6 @@ background: transparent;
  
 #header {
   height: 200px;
-  width: 750px;
   border:1px solid #333333;
   background: url("/images/enyk song header.jpeg");
   background-repeat:no-repeat;
