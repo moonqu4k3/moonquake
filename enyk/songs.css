@@ -72,9 +72,9 @@ background: transparent;
   
 
 #layout {
-  width:750px;
-  text-align:left;
-  margin:auto;
+  width: 618px;
+  text-align: left;
+  margin: auto;
 }
 
 #navigation {
@@ -224,7 +224,7 @@ blockquote > p {
   
 #sidebar {
   width:175px; 
-  float:inline-end; 
+  float:right; 
   vertical-align:top; 
   padding:10px 4px 4px 2px;
 }
