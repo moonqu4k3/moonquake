@@ -177,14 +177,13 @@ background: transparent;
 .gallerybox {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: flex-start;
     margin: 0px; 
     padding: 0px;
 }
 
 .galleryimg {
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: 2px;
   padding: 0px;
