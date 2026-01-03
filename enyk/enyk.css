@@ -9,12 +9,12 @@ html {
 }
 
 body {
-  background: url("/images/enyk bg.gif"); 
-  color: #777;
-  font:10px;
-  letter-spacing:1px;
-  margin:0px; 
-  padding:0px 0px 5px 0px;
+    background: url("/images/enyk bg.gif"); 
+    color: #777;
+    font:10px;
+    letter-spacing:1px;
+    margin:0px; 
+    padding:0px 0px 5px 0px;
 }
     
 .title {
@@ -132,7 +132,11 @@ background: transparent;
   box-shadow: 5px 6px lavenderblush;
 }
 
-#box1 {
+#smallbox {
+    clear: both;
+}
+
+.box1 {
   float:left;
   background-color:#FFFFFF; 
   margin:0px 1px 15px 0; 
@@ -143,9 +147,16 @@ background: transparent;
   width:195px;
   height:115px;
   overflow:auto;
-  overflow-x:hidden;}
+  overflow-x:hidden;
+  flex: 1;
+  transition: 1s;
+}
 
-#box2 {
+.box1:hover {
+    flex: auto;
+}
+
+.box2 {
   float:right; 
   background-color:#FFFFFF; 
   margin:0px 0px 15px 1px; 
