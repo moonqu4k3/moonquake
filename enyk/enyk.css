@@ -177,7 +177,8 @@ background: transparent;
 .gallerybox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: flex-start;
     margin: 0px; 
     padding: 0px;
 }
