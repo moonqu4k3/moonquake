@@ -229,7 +229,7 @@
 
     .img-box {
         cursor: pointer;
-        display: flex;
+        display: inline-block;
         position: relative;
         width: 100%;
         height: var(--image-height);
@@ -237,8 +237,6 @@
         border: var(--image-border);
         box-shadow: var(--image-box-shadow);
         border-radius: var(--image-border-radius);
-            flex: 1;
-            transition: 1s;
 
         & img {
             width: 100%;
@@ -259,7 +257,6 @@
     section label:focus .img-box img {
         transform: scale(1.08);
         filter: grayscale(50%);
-            flex: 4;
     }
 
     /* overlay for images. also contains the caption */
