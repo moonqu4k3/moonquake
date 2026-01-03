@@ -176,8 +176,8 @@ background: transparent;
 
 #sidebar {
   width:175px; 
-  float:none; 
-  vertical-align:top; 
+  float: right; 
+  vertical-align: top; 
   padding:10px 4px 4px 2px;
 }
 
