@@ -75,6 +75,7 @@ background: transparent;
   width:618px;
   text-align:left;
   margin:auto;
+  display:flex;
 }
 
 #navigation {
