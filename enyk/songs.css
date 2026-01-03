@@ -49,7 +49,7 @@ b {
 i {
     font-style: italic;
     color: #999;
-    padding-bottom: 5px;
+    line-height: 2em;
 }
     
 textarea {
