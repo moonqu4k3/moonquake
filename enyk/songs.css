@@ -72,7 +72,7 @@ background: transparent;
   
 
 #layout {
-  width:700px;
+  width:750px;
   text-align:left;
   margin:auto;
 }
@@ -224,7 +224,7 @@ blockquote > p {
   
 #sidebar {
   width:175px; 
-  float:right; 
+  float:inline-end; 
   vertical-align:top; 
   padding:10px 4px 4px 2px;
 }
