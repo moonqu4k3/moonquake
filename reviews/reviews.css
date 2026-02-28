@@ -87,8 +87,8 @@ ul.tree-view {
 
 ul {
   list-style-type: none;
-  padding: 3px;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .header ul,
