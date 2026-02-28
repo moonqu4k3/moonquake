@@ -85,7 +85,7 @@ ul.tree-view {
   padding: 3px;
 }
 
-/**ul {
+ul {
   list-style-type: none;
   padding: 3px;
   margin: 0;
@@ -94,7 +94,7 @@ ul.tree-view {
 .header ul,
 li {
   display: inline;
-}**/
+}
 
 li {
   /**  border: 3px outset whitesmoke;
